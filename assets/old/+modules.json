@@ -1,0 +1,1948 @@
+{
+  "asset_version": 4,
+  "generated_at": "2026-03-19T13:30:00",
+  "areas": [
+    {
+      "id": "nutrizione",
+      "name": "Nutrizione",
+      "sort_order": 10,
+      "active": 1
+    },
+    {
+      "id": "fisioterapia",
+      "name": "Fisioterapia",
+      "sort_order": 20,
+      "active": 1
+    },
+    {
+      "id": "osteopatia",
+      "name": "Osteopatia",
+      "sort_order": 30,
+      "active": 1
+    },
+    {
+      "id": "osteopatia_pediatrica",
+      "name": "Osteopatia Pediatrica",
+      "sort_order": 40,
+      "active": 1
+    },
+    {
+      "id": "massoterapia",
+      "name": "Massoterapia",
+      "sort_order": 50,
+      "active": 1
+    },
+    {
+      "id": "logopedia",
+      "name": "Logopedia",
+      "sort_order": 60,
+      "active": 1
+    },
+    {
+      "id": "ortottica",
+      "name": "Ortottica",
+      "sort_order": 70,
+      "active": 1
+    },
+    {
+      "id": "ostetricia",
+      "name": "Ostetricia",
+      "sort_order": 80,
+      "active": 1
+    },
+    {
+      "id": "chinesiologia",
+      "name": "Chinesiologia",
+      "sort_order": 90,
+      "active": 1
+    },
+    {
+      "id": "corsi",
+      "name": "Corsi",
+      "sort_order": 110,
+      "active": 1
+    },
+    {
+      "id": "speciali",
+      "name": "Virtus",
+      "sort_order": 500,
+      "active": 1
+    }
+  ],
+  "professionals": [
+    {
+      "id": "1",
+      "name": "Dott. Gaetano Messineo",
+      "sector": "nutrizione",
+      "area_id": "nutrizione",
+      "active": 1,
+      "config": {
+        "nome": "Dott. Gaetano Messineo",
+        "firme": 1,
+        "etichette_firme": [
+          "Firma paziente"
+        ],
+        "testo_informativa": "1. I dati sensibili da Lei forniti verranno trattati secondo i principi di liceità, correttezza, adeguatezza ed in generale nei limiti di quanto previsto dal Regolamento per le finalità di consulenza, anamnesi e redazione di una corretta alimentazione connesse all’assolvimento dell’incarico professionale da Lei conferito;<br>\n2. Il trattamento sarà effettuato sia manualmente che avvalendosi di strumenti elettronici;<br>\n3. Il conferimento dei dati è obbligatorio per potere assolvere all’incarico conferito per le finalità di cui al punto 1 e l'eventuale rifiuto a fornire tali dati comporta l’impossibilità di dare esecuzione al contratto e quindi l’impossibilità di fornirLe la prestazione sanitaria richiesta e la relativa assistenza.<br>\n4. I dati in nessun caso saranno oggetto di diffusione e saranno comunicati esclusivamente a soggetti autorizzati ed al professionista esterno che, in qualità di responsabile del trattamento, cura la contabilità dello Studio. In quest’ultimo caso i dati comunicati saranno quelli strettamente necessari per assolvere agli obblighi contabili e fiscali;<br>\n5. Le fatture relative alle prestazioni sanitarie rese, verranno inviate al Sistema Tessera Sanitaria per la predisposizione del Suo Modello 730 precompilato. Qualora volesse opporsi a tale invio, potrà comunicarlo oralmente al Titolare stesso, il quale provvederà ad annotare l’opposizione sulla Sua fattura.<br>\n6. Il titolare del trattamento è il Dott. Gaetano Messineo con sede legale in Via Montello, 79 Brescia BS e studio in Via Corfù, 71 -25124 Brescia<br>\n7. In ogni momento potrà esercitare i Suoi diritti nei confronti del titolare del trattamento, quali il diritto di accesso ai dati personali e la rettifica o la cancellazione degli stessi o la limitazione del trattamento che La riguardano o il diritto di opporsi al loro trattamento, oltre al diritto alla portabilità dei dati; ed in generale tutti i diritti previsti dal Regolamento.<br>\n8. Al fine di tutelare i diritti di cui al punto precedente, potrà proporre reclamo all’Autorità Garante per la Protezione dei dati personali;<br>\n9. Il Suoi dati verranno conservati per il tempo necessario per il raggiungimento delle finalità di cui al punto 1 ed in ogni caso, per assolvere agli obblighi imposti dalle normative sanitarie;<br>\n10.Il consenso prestato con la sottoscrizione del presente modulo è in ogni momento revocabile. L’esercizio del diritto di revoca non pregiudica le prestazioni già rese;",
+        "blocks": [
+          {
+            "type": "text_block",
+            "content": "1. I dati sensibili da Lei forniti verranno trattati secondo i principi di liceità, correttezza, adeguatezza ed in generale nei limiti di quanto previsto dal Regolamento per le finalità di consulenza, anamnesi e redazione di una corretta alimentazione connesse all’assolvimento dell’incarico professionale da Lei conferito;<br>\n2. Il trattamento sarà effettuato sia manualmente che avvalendosi di strumenti elettronici;<br>\n3. Il conferimento dei dati è obbligatorio per potere assolvere all’incarico conferito per le finalità di cui al punto 1 e l'eventuale rifiuto a fornire tali dati comporta l’impossibilità di dare esecuzione al contratto e quindi l’impossibilità di fornirLe la prestazione sanitaria richiesta e la relativa assistenza.<br>\n4. I dati in nessun caso saranno oggetto di diffusione e saranno comunicati esclusivamente a soggetti autorizzati ed al professionista esterno che, in qualità di responsabile del trattamento, cura la contabilità dello Studio. In quest’ultimo caso i dati comunicati saranno quelli strettamente necessari per assolvere agli obblighi contabili e fiscali;<br>\n5. Le fatture relative alle prestazioni sanitarie rese, verranno inviate al Sistema Tessera Sanitaria per la predisposizione del Suo Modello 730 precompilato. Qualora volesse opporsi a tale invio, potrà comunicarlo oralmente al Titolare stesso, il quale provvederà ad annotare l’opposizione sulla Sua fattura.<br>\n6. Il titolare del trattamento è il Dott. Gaetano Messineo con sede legale in Via Montello, 79 Brescia BS e studio in Via Corfù, 71 -25124 Brescia<br>\n7. In ogni momento potrà esercitare i Suoi diritti nei confronti del titolare del trattamento, quali il diritto di accesso ai dati personali e la rettifica o la cancellazione degli stessi o la limitazione del trattamento che La riguardano o il diritto di opporsi al loro trattamento, oltre al diritto alla portabilità dei dati; ed in generale tutti i diritti previsti dal Regolamento.<br>\n8. Al fine di tutelare i diritti di cui al punto precedente, potrà proporre reclamo all’Autorità Garante per la Protezione dei dati personali;<br>\n9. Il Suoi dati verranno conservati per il tempo necessario per il raggiungimento delle finalità di cui al punto 1 ed in ogni caso, per assolvere agli obblighi imposti dalle normative sanitarie;<br>\n10.Il consenso prestato con la sottoscrizione del presente modulo è in ogni momento revocabile. L’esercizio del diritto di revoca non pregiudica le prestazioni già rese;"
+          },
+          {
+            "type": "text_input",
+            "label": "Nome e Cognome",
+            "data_key": "patient.full_name"
+          },
+          {
+            "type": "signature",
+            "label": "Firma paziente",
+            "data_key": "firma_1",
+            "validation": {
+              "required": true
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "name": "Dott.ssa Veronica Lorenzini",
+      "sector": "Osteopatia Pediatrica",
+      "area_id": "osteopatia_pediatrica",
+      "active": 1,
+      "config": {
+        "nome": "Dott.ssa Veronica Lorenzini",
+        "firme": 2,
+        "etichette_firme": [
+          "Firma Modulo Privacy",
+          "Firma Consensi"
+        ],
+        "testo_informativa": "\nAi sensi dell.art 13 del Regolamento Europeo 2016/679 (di seguito GDPR) della normativa nazionale e dei Provvedimenti del Garante Privacy ed in relazione ai dati personali di cui la sottoscritta Veronica Lorenzini entrerà in possesso, \nLa informo di quanto segue:<br>\n1. FINALITA DEL TRATTAMENTO E NATURA OBBLIGATORIA O FACOLTATIVA DEL CONTENUTO<br>\nI Suoi dati personali, anche sensibili ai sensi dell'art. 9 GDPR saranno trattati dal Titolare, tramite l'utilizzo di strumenti informatici e/o cartacei, per una o più delle finalità seguenti:<br>\n\nA) Finalità connesse e strumentali alla corretta e completa esecuzione del mio incarico professionale commesso a tutte le attività di valutazione e trattamento manipolativo osteopatico svolte a tutela della Sua salute. Il conferimento dei Suoi dati per queste finalità è facoltativo. Tuttavia, il mancato conferimento del consenso comporterà l'impossibilità per il Titolare di erogare la prestazione richiesta. Potrà esprimere il proprio consenso, ai sensi dell'art. 6.1 e dell'art. 9.2 lett. a) GDPR sottoscrivendo l'apposito modulo rilasciato dal Titolare<br>\n\nB) Finalità connesse all'espletamento di obblighi normativi e fiscali, quali a titolo esemplificativo il rispetto degli obblighi di legge regolamento imposti dalla normativa comunitaria e/o nazionale, nonché di tutti gli adempimenti di carattere amministrativo e contabile collegati al pagamento delle prestazioni professionali erogate e/o alla gestione degli obblighi contrattuali con compagnie assicuratrici. Il conferimento dei dati per queste finalità non è soggetto al consenso conformemente a quanto previsto dall'art. 6.1 lett. b) e c) GDPR <br>\n\nC) Finalità connesse ad analisi statistiche. Rientra in questa tipologia l'impiego dei Suoi dati, anche sensibili, previa loro anonimizzazione, per ricerche e studi condotti dal Titolare.<br>\nPer queste finalità il conferimento dei Suoi dati è facoltativo ed è subordinato alla prestazione del Suo consenso tramite la sottoscrizione dell'apposito modulo rilasciato dal Titolare.<br>\n\nD) Finalità connesse all'invio di materiale informativo. Rientrano in questa tipologia l'invio di newsletter e/o di comunicazione periodiche via e-mail su attività e servizi del Titolare.<br>\nPer queste finalità il conferimento dei Sooi dati è facoltativo ed è subordinato alla prestazione del Suo consenso tramite la sottoscrizione dell'apposito modulo rilasciato dal Titolare.<br>\n\n2. MODALITÀ DEL TRATTAMENTO DEI DATI <br>\nIl trattamento dei dati è realizzato per mezzo delle operazioni o complesso di operazioni indicato all'art. 2 del Reg. UE e attraverso l'utilizzo di strumenti informatici o cartacei.<br>\nIl trattamento dei dati è svolto dal Titolare e/o dagli incaricati del trattamento.<br>\n3. COMUNICAZIONE DEI DATI<br>\nPrevio Suo consenso, per il perseguimento delle finalità di cui al punto 1 A), il Titolare potrà comunicare i Suoi dati personali e sensibili a familiari e/o a personale medico e, più in generale, sanitario da Lei indicato.<br>\nInoltre, i Suoi dati potranno essere comunicati senza il suo consenso a soggetti eventualmente deputati alla gestione di pratiche di rimborso e/o di verifica delle prestazioni erogate; enti previdenziali ed assistenziali, compagnie assicurative che, in qualità di titolari autonomi del trattamento offrono servizi di assistenza integrativa, forze di Polizia, autorità giudiziaria ed altri organismi di pubblica sicurezza. <br>\n4. DIFFUSIONE DEI DATI E TRASFERIMENTO DEI DATI ALL'ESTERO<br>\nI Suoi dati personali:<br>\n• non sono soggetti a diffusione; non sono traferiti all'estero.<br>\n5. PERIODO DI CONSERVAZIONE DEI DATI<br>\nI Suoi dati di natura sensibile verranno conservati, per il periodo di tempo previsto dalla normativa comunitaria, da leggi, o da regolamenti e comunque, per un periodo non superiore a quello strettamente necessario per adempiere agli incarichi conferiti.<br>\nI dati personali non sensibili e funzionali all'assolvimento di obblighi di legge saranno conservati anche successivamente al termine della prestazione professionale erogata in ottemperanza a detti obblighi, nel più rigoroso rispetto delle tempistiche di conservazione di cui alle norme di volta in volta applicabili, e comunque per un periodo non superiore a 10 аnni.<br>\n6. DIRITTI DELL'INTERESSATO<br>\nIn qualità di interessato al trattamento, Lei potrà far valere i propri diritti, come espressi dagli artt. 15, 16, 17, 18, 19, 20, 21, 22 del Regolamento UE 2016/679, rivolgendosi al Titolare, oppure al Responsabile del trattamento, se indicato. Lei ha il diritto, in qualunque momento, di chiedere al Titolare del trattamento l'accesso ai Suoi dati personali, la rettifica, la cancellazione degli stessi, la limitazione del trattamento. Inoltre, ha il diritto di opporsi, in qualsiasi momento, al trattamento dei suoi dati (compresi i trattamenti automatizzati, es. la profilazione), nonché alla portabilità dei suoi dati. Fatto salvo ogni altro ricorso amministrativo e giurisdizionale, se ritiene che il trattamento dei dati che la riguardano violi quanto previsto dal Regolamento Europeo UR 2016/679, ai sensi dell'art. 15 lettera 1) del succitato Regolamento Europeo UE 2016/679, Lei ha il diritto di proporre reclamo al Garante per la protezione dei dati personali e, con riferimento all'art. 6 paragrafo 1, lettera a) e art. 9, paragrafo 2, lettera a) del medesimo Regolamento, ha il diritto di revocate in qualsiasi momento il consenso prestato. Nel caso di richiesta di portabilità del dato, il Titolare del trattamento Le fornirà in un formato strutturato, di uso comune e leggibile da dispositivo automatico, i dati personali che la riguardano, fatti salvi i commi 3 e 4 dell'art. 20 del Reg. UE 2016/679.<br>\n7. MODALITA' DI ESERCIZIO DEI DIRITTI<br>\nPotrà in qualsiasi momento esercitare i diritti di cui sopra tramite:<br>\n• e-mail all'indirizzo lorenziniveronica77@gmail.com<br>\n8. TITOLARE, RESPONSABILI E INCARICATI<br>\nLa Titolare del trattamento è Veronica Lorenzini presso Virtus Group.<br>\nResponsabile del trattamento à Veronica Lorenzini. L'elenco aggiornato dei responsabili e degli incaricati al trattamento è custodito presso la sede del Titolare del trattamento.<br>\n",
+        "blocks": [
+          {
+            "type": "inline_sentence",
+            "parts": [
+              {
+                "text": "Gentile "
+              },
+              {
+                "field": {
+                  "type": "choice",
+                  "data_key": "patient.title",
+                  "render": "select",
+                  "width": 140,
+                  "options": [
+                    {
+                      "label": "Signore",
+                      "value": "Signore"
+                    },
+                    {
+                      "label": "Signora",
+                      "value": "Signora"
+                    }
+                  ],
+                  "validation": {
+                    "required": true
+                  }
+                }
+              },
+              {
+                "text": " "
+              },
+              {
+                "field": {
+                  "type": "text_input",
+                  "data_key": "patient.full_name",
+                  "placeholder": "Nome e Cognome",
+                  "width": 280,
+                  "validation": {
+                    "required": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "inline_sentence",
+            "parts": [
+              {
+                "text": "Io sottoscritto/a "
+              },
+              {
+                "field": {
+                  "type": "text_input",
+                  "data_key": "patient.full_name",
+                  "placeholder": "Nome e Cognome",
+                  "width": 220,
+                  "width_px": 180,
+                  "validation": {
+                    "required": true
+                  }
+                }
+              },
+              {
+                "text": ", nato/a a "
+              },
+              {
+                "field": {
+                  "type": "text_input",
+                  "data_key": "patient.birth_place",
+                  "placeholder": "Luogo di nascita",
+                  "width": 200,
+                  "validation": {
+                    "required": true
+                  },
+                  "width_px": 160
+                }
+              },
+              {
+                "text": " il "
+              },
+              {
+                "field": {
+                  "type": "date",
+                  "data_key": "patient.birth_date",
+                  "width": 150,
+                  "validation": {
+                    "required": true
+                  },
+                  "width_px": 135
+                }
+              },
+              {
+                "text": ", residente a "
+              },
+              {
+                "field": {
+                  "type": "text_input",
+                  "data_key": "patient.address",
+                  "placeholder": "Residenza",
+                  "width": 200,
+                  "validation": {
+                    "required": true
+                  },
+                  "width_px": 150
+                }
+              }
+            ],
+            "no_wrap": true
+          },
+          {
+            "type": "html",
+            "html": "<p>Acquisite le summenzionate informazioni fornite dal Titolare del trattamento ai sensi dell’art. 13 del Reg. UE, e consapevole, in particolare, che il trattamento potrà riguardare dati relativi alla salute, presto il mio consenso per il trattamento dei suddetti dati per le finalità di cui al punto 1, lett. A) dell'informativa.</p>"
+          },
+          {
+            "type": "signature",
+            "label": "Firma Modulo Privacy",
+            "data_key": "signature_privacy",
+            "validation": {
+              "required": true
+            }
+          },
+          {
+            "type": "section",
+            "title": "Dichiaro inoltre di:",
+            "children": [
+              {
+                "type": "choice",
+                "label": "il mio consenso per le finalità di cui al punto 2, lett. C)",
+                "data_key": "consenso_c",
+                "render": "radio",
+                "options": [
+                  {
+                    "label": "Prestare",
+                    "value": "Prestare"
+                  },
+                  {
+                    "label": "Non prestare",
+                    "value": "Non prestare"
+                  }
+                ],
+                "validation": {
+                  "required": true
+                },
+                "inline_options": true,
+                "hide_label": false,
+                "label_after_options": true
+              },
+              {
+                "type": "choice",
+                "label": "il mio consenso per le finalità di cui al punto 2, lett. D)",
+                "data_key": "consenso_d",
+                "render": "radio",
+                "options": [
+                  {
+                    "label": "Prestare",
+                    "value": "Prestare"
+                  },
+                  {
+                    "label": "Non prestare",
+                    "value": "Non prestare"
+                  }
+                ],
+                "validation": {
+                  "required": true
+                },
+                "inline_options": true,
+                "hide_label": false,
+                "label_after_options": true
+              },
+              {
+                "type": "choice",
+                "label": "il mio consenso alla comunicazione dei miei dati personali e sensibili a familiari e/o a personale medico",
+                "data_key": "consenso_familiari",
+                "render": "radio",
+                "options": [
+                  {
+                    "label": "Prestare",
+                    "value": "Prestare"
+                  },
+                  {
+                    "label": "Non prestare",
+                    "value": "Non prestare"
+                  }
+                ],
+                "validation": {
+                  "required": true
+                },
+                "inline_options": true,
+                "hide_label": false,
+                "label_after_options": true
+              }
+            ]
+          },
+          {
+            "type": "signature",
+            "label": "Firma Consensi",
+            "data_key": "signature_consensi",
+            "validation": {
+              "required": true
+            }
+          },
+          {
+            "type": "row",
+            "cols": [
+              {
+                "type": "text_input",
+                "label": "Luogo",
+                "data_key": "patient.place",
+                "validation": {
+                  "required": true
+                }
+              },
+              {
+                "type": "date",
+                "label": "Data",
+                "data_key": "patient.date",
+                "validation": {
+                  "required": true
+                }
+              }
+            ]
+          }
+        ],
+        "ui": {
+          "title": "Modulo Informativa Privacy – Dott.ssa Veronica Lorenzini",
+          "subtitle": "Osteopatia Pediatrica",
+          "informativa_position": "after_first"
+        },
+        "disable_legacy_injection": true
+      }
+    },
+    {
+      "id": "3",
+      "name": "Dott.ssa Scattolini",
+      "sector": "ostetricia",
+      "area_id": "ostetricia",
+      "active": 1,
+      "config": {
+        "nome": "Dott.ssa Scattolini",
+        "email": "",
+        "firme": 3,
+        "etichette_firme": [
+          "Firma Modulo Privacy",
+          "Firma Consensi",
+          "Firma Acquisizione"
+        ],
+        "testo_informativa": "\n<p style=\"text-align:center;\">C.F. SCTLND93R62B157Y - P.I. 04025560980</p>\n\n<p style=\"text-align: justify;\">\n  In relazione ai dati personali (riferiti a “persona fisica”) trattati si informano i pazienti che:\n<ul style=\"text-align: justify; margin-left: 20px;\">\n  <li><strong>Titolare del trattamento dei dati</strong>: dott.ssa Linda Scattolini, domiciliata a Palazzolo S/O, via Lancini 11 – tel. 3331852500 – email: linda.scattolini@gmail.com</li>\n  <li>I dati personali sono trattati per le finalità connesse all’erogazione del servizio sanitario richiesto e si procederà all’acquisizione unicamente dei dati necessari per la miglior gestione del servizio stesso.</li>\n  <li>Il trattamento avviene sia in forma cartacea/manuale che con elementi elettronici informatici.</li>\n  <li>Il trattamento viene svolto in osservanza delle disposizioni di legge o di regolamento.</li>\n  <li>Vengono trattate le seguenti categorie di dati: identificativi delle persone; dati attinenti lo stato di salute; dati socio-economici.</li>\n  <li>I dati trattati possono essere trasmessi alle seguenti categorie di soggetti: Ministero dell’Economia e delle Finanze, Studio Pezzotti Srl, Via Lazzaretto, 2, CAP 25030, Adro – CF e P.IVA 02709980987.</li>\n  <li>I dati vengono conservati per la durata prevista dalla normativa vigente in materia di conservazione dati /documenti cartacei/digitali del settore sanitario.</li>\n  <li>Il mancato conferimento dei dati alla dott.ssa Scattolini o la mancata acquisizione possono comportare l’impossibilità di erogazione del servizio richiesto.</li>\n  <li>Il trattamento dei dati personali è improntato ai principi di correttezza, liceità e trasparenza, nel rispetto della riservatezza degli stessi.</li>\n  <li>Gli interessati (ovvero le persone fisiche a cui si riferiscono i dati personali) hanno il diritto di accesso ai dati, alla rettifica, alla limitazione o opposizione al trattamento per motivi legittimi ed espressi, a presentare reclamo all’Autorità Garante della privacy.</li>\n  <li>I dati trattati vengono acquisiti dagli interessati sempre nel rispetto della normativa e delle finalità proprie dei trattamenti.</li>\n",
+        "ui": {
+          "title": "Modulo Informativa Privacy - Scattolini"
+        },
+        "disable_legacy_injection": true,
+        "blocks": [
+          {
+            "type": "text_input",
+            "data_key": "patient.full_name",
+            "label": "Nome e Cognome",
+            "validation": {
+              "required": true
+            }
+          },
+          {
+            "type": "date",
+            "data_key": "presa_visione_data",
+            "label": "Presa visione - Data",
+            "validation": {
+              "required": false
+            },
+            "subtype": "date"
+          },
+          {
+            "type": "text_input",
+            "data_key": "ruolo",
+            "label": "Il sottoscritto in qualità di",
+            "validation": {
+              "required": false
+            }
+          },
+          {
+            "type": "choice",
+            "data_key": "autorizzazione",
+            "label": "Autorizzazione",
+            "options": [
+              {
+                "label": "Autorizzo",
+                "value": "Autorizzo"
+              },
+              {
+                "label": "Non autorizzo",
+                "value": "Non autorizzo"
+              }
+            ],
+            "validation": {
+              "required": true
+            }
+          },
+          {
+            "type": "text_input",
+            "data_key": "medico_generale",
+            "label": "Medico di Medicina Generale",
+            "validation": {
+              "required": false
+            }
+          },
+          {
+            "type": "text_input",
+            "data_key": "medico_specialista",
+            "label": "Medico Specialista",
+            "validation": {
+              "required": false
+            }
+          },
+          {
+            "type": "text_input",
+            "data_key": "al_sig",
+            "label": "Al/alla Sig./Sig.ra",
+            "validation": {
+              "required": false
+            }
+          },
+          {
+            "type": "text_input",
+            "data_key": "ruolo2",
+            "label": "Seconda sezione - Il sottoscritto in qualità di",
+            "validation": {
+              "required": false
+            }
+          },
+          {
+            "type": "date",
+            "data_key": "seconda_data",
+            "label": "Seconda sezione - Data",
+            "validation": {
+              "required": false
+            },
+            "subtype": "date"
+          },
+          {
+            "type": "date",
+            "data_key": "verbale_data",
+            "label": "Data acquisizione verbale",
+            "validation": {
+              "required": false
+            },
+            "subtype": "date"
+          },
+          {
+            "type": "row",
+            "children": [
+              {
+                "type": "text_input",
+                "data_key": "firma_luogo",
+                "label": "Luogo",
+                "validation": {
+                  "required": true
+                }
+              },
+              {
+                "type": "date",
+                "data_key": "firma_data",
+                "label": "Data",
+                "subtype": "date",
+                "validation": {
+                  "required": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "signature",
+            "data_key": "firma_1",
+            "label": "Firma Modulo Privacy",
+            "validation": {
+              "required": true
+            }
+          },
+          {
+            "type": "signature",
+            "data_key": "firma_2",
+            "label": "Firma Consensi",
+            "validation": {
+              "required": true
+            }
+          },
+          {
+            "type": "signature",
+            "data_key": "firma_3",
+            "label": "Firma Acquisizione",
+            "validation": {
+              "required": true
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "name": "Dott.ssa Serioli",
+      "sector": "logopedia",
+      "area_id": "logopedia",
+      "active": 1,
+      "config": {
+        "disable_legacy_injection": true,
+        "ui": {
+          "title": "Modulo Informativa Privacy – Dott.ssa Sara Serioli",
+          "subtitle": "",
+          "informativa_position": "top",
+          "pdf_title": "Modulo Informativa Privacy – Dott.ssa Sara Serioli"
+        },
+        "testo_informativa": "\nGentilissimo/a,<br>\ncon il presente documento, io sottoscritta Dott.ssa SARA SERIOLI, e-mail sara.serioli@gmail.com, presso la sede di Virtus Gruop in qualità di Titolare del trattamento dei dati, le fornisco di seguito le informazioni relative al trattamento dei dati personali.<br><br>\n<b>Categorie di dati trattati</b><br>\nNell’esecuzione dell’incarico professionale conferitomi, saranno trattati con riferimento al paziente, i dati anagrafici (nome, cognome, codice fiscale), i dati di contatto (indirizzo di residenza, numero di telefono), i dati sanitari e clinici (diagnosi mediche, anamnesi familiare, esiti esami audiometrici etc.) e i dati contenuti in video e audio registrati durante le sedute di terapia. Inoltre, saranno trattati anche i suoi dati anagrafici (nome, cognome, codice fiscale) e dati di contatto (indirizzo di residenza, numero di telefono).<br>\nLa raccolta di tali dati è necessaria per l’adempimento delle prestazioni professionali.<br>\n<b>Finalità del trattamento e base giuridica</b><br>\nI dati raccolti saranno trattati, in forza dell’incarico conferitomi, per l’esecuzione delle prestazioni professionali richieste (es. prevenzione, diagnosi, cura, riabilitazione o per altre prestazioni da voi richieste) e, in ragione del suo consenso espresso, per la comunicazione di eventi di informazione scientifica di interesse per il paziente e per finalità di ricerca scientifica (redazione di articoli per riviste specializzate, relazioni a convegni). Quest’ultima finalità sarà eseguita, anche nel rispetto dei miei obblighi professionali di segretezza, con modalità (es. tecnica di pseudonimizzazione) tali da impedire la riconducibilità dei dati al paziente.<br>\n<b>Destinatari dei dati</b><br>\nI dati sanitari del paziente potranno essere comunicati, previo suo consenso espresso che potrà essere revocato in qualsiasi momento, a medici o ad altri professionisti sanitari qualora ciò si renda necessario per l’interesse del paziente e per i trattamenti medici che segue (es. il suo medico curante). Inoltre, i suoi dati e i dati non sanitari del paziente potranno essere comunicati, senza necessità di consenso, anche a soggetti terzi per l’adempimento di specifici obblighi di legge (es. Commercialista), per lo svolgimento della mia attività (es. società hosting del server di posta elettronica o società che fornisce i servizi in cloud) e per la tutela dei miei diritti (es. Avvocati e Assicurazioni).<br>\n<b>Trasferimento dei dati</b><br>\nI dati, qualora trattati mediante strumenti telematici (es. e-mail, servizi in cloud), potranno essere conservati in Paesi non appartenenti all’Unione Europea (ad esempio, nel caso di utilizzo di servizio di conservazione in cloud erogato attraverso server posti fuori dall’Unione Europea) per i quali tuttavia sussiste una decisione della Commissione europea di adeguatezza della normativa di tutela del trattamento dei dati personali. (*n.b.: la sussistenza della decisione di adeguatezza da parte della Commissione Europea deve essere verificata caso per caso da ciascun professionista e dipende dal tipo di servizio digitale che viene utilizzato ed, in particolare, dal luogo in cui sono situati i server su cui funziona tale servizio).<br>\n<b>Durata del trattamento</b><br>\nTutti i dati raccolti saranno trattati per l’intera durata del rapporto professionale per la finalità di esecuzione dell’incarico conferitomi. Successivamente, i dati del paziente saranno trattati per ulteriori dieci anni per finalità di ricerca scientifica e comunque per il tempo necessario per l’adempimento di specifici obblighi di legge e per l’eventuale tutela dei miei diritti.<br>\n<b>Diritti dell’interessato</b><br>\nIn qualsiasi momento, mediante comunicazione da inviare ai recapiti sopra indicati ed in presenza dei presupposti di legge, potrà essere richiesto l’accesso, la cancellazione, l’aggiornamento, la rettificazione, la limitazione e l’integrazione dei dati personali raccolti o di opporsi al trattamento di essi. Potrà inoltre ricevere in un formato strutturato, di uso comune e leggibile da dispositivo automatico, i dati personali e potrà essere proposto reclamo all’Autorità di controllo della protezione dei dati competenti nel caso in cui ritenga che i Suoi diritti siano stati violati.<br>\n<b>Revoca del consenso</b><br>\nIn aggiunta ai diritti sopra elencati, potrà in qualsiasi momento revocare il consenso per quei trattamenti fondati su di esso. In tal caso, i trattamenti effettuati precedentemente saranno comunque leciti.\n",
+        "blocks": [
+          {
+            "type": "signature",
+            "data_key": "firma_1",
+            "label": "Firma Modulo Privacy",
+            "validation": {
+              "required": true
+            }
+          },
+          {
+            "type": "section",
+            "title": "Consensi",
+            "children": [
+              {
+                "type": "inline_sentence",
+                "parts": [
+                  {
+                    "text": "Io sottoscritto "
+                  },
+                  {
+                    "field": {
+                      "type": "text_input",
+                      "data_key": "serioli_tutore_full_name",
+                      "placeholder": "Nome e cognome genitore/tutore",
+                      "validation": {
+                        "required": true
+                      }
+                    }
+                  },
+                  {
+                    "text": ", in qualità di genitore/tutore del paziente "
+                  },
+                  {
+                    "field": {
+                      "type": "text_input",
+                      "data_key": "serioli_paziente_full_name",
+                      "placeholder": "Nome e cognome paziente",
+                      "validation": {
+                        "required": true
+                      }
+                    }
+                  },
+                  {
+                    "text": ", vista l’informativa sul trattamento dei dati personali, sopra riportata:"
+                  }
+                ]
+              },
+              {
+                "type": "choice",
+                "data_key": "consenso_ricerca",
+                "label": "al trattamento dei dati sanitari e dei dati contenuti nelle registrazioni video ed audio relativi al paziente effettuate durante la terapia per finalità di ricerca scientifica attraverso la divulgazione di essi con mezzi adeguati che garantiscano la non riconducibilità di tali dati al paziente.",
+                "label_after_options": true,
+                "options": [
+                  {
+                    "label": "Acconsento",
+                    "value": "Acconsento"
+                  },
+                  {
+                    "label": "Non acconsento",
+                    "value": "Non acconsento"
+                  }
+                ],
+                "validation": {
+                  "required": true
+                }
+              },
+              {
+                "type": "choice",
+                "data_key": "consenso_info",
+                "label": "al trattamento dei dati per ricevere eventuali comunicazioni di eventi di informazione scientifica connessi alla situazione sanitaria del paziente che possano risultare di mio interesse.",
+                "label_after_options": true,
+                "options": [
+                  {
+                    "label": "Acconsento",
+                    "value": "Acconsento"
+                  },
+                  {
+                    "label": "Non acconsento",
+                    "value": "Non acconsento"
+                  }
+                ],
+                "validation": {
+                  "required": true
+                }
+              },
+              {
+                "type": "choice",
+                "data_key": "consenso_terzi",
+                "label": "il Titolare del trattamento a comunicare i dati sanitari del Paziente ad altri medici o altri operatori sanitari presso cui è in cura il paziente (es. il proprio medico curante) qualora ciò sia strettamente necessario al suo interesse e alla corretta esecuzione dell’incarico professionale conferito a tali professionisti.",
+                "label_after_options": true,
+                "options": [
+                  {
+                    "label": "Acconsento",
+                    "value": "Acconsento"
+                  },
+                  {
+                    "label": "Non acconsento",
+                    "value": "Non acconsento"
+                  }
+                ],
+                "validation": {
+                  "required": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "row",
+            "children": [
+              {
+                "type": "text_input",
+                "label": "Luogo",
+                "data_key": "firma_luogo",
+                "validation": {
+                  "required": true
+                }
+              },
+              {
+                "type": "date",
+                "label": "Data",
+                "data_key": "firma_data",
+                "validation": {
+                  "required": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "signature",
+            "data_key": "firma_2",
+            "label": "Firma Consensi",
+            "validation": {
+              "required": true
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "name": "Dott. Luca Taesi",
+      "sector": "chinesiologia",
+      "area_id": "chinesiologia",
+      "active": 1,
+      "config": {
+        "nome": "Dott. Luca Taesi",
+        "firme": 1,
+        "etichette_firme": [
+          "Firma paziente"
+        ],
+        "testo_informativa": "\n<p><strong>Informativa relativa al trattamento dei dati personali</strong><br>\nai sensi dell'art. 13 Regolamento (UE) 2016/679 (GDPR)</p>\n\n<p>Gentile Signora / Egregio Signore,<br>\nLuca Taesi (C.F. TSALCU91A11B157M, P.IVA: 03988720987, PEC: lucataesi@pec.it), in qualità di titolare del trattamento dei dati personali (\"Titolare\"), fornisce le seguenti informazioni ai sensi dell'art. 13 del GDPR.</p>\n\n<p><strong>1. Dati personali oggetto del trattamento</strong><br>\nSaranno trattati Dati Comuni (es. nome, cognome, telefono, email) e Dati Particolari (es. salute, dati biometrici) secondo quanto previsto dall'art. 9 del GDPR.</p>\n\n<p><strong>2. Finalità e base giuridica del trattamento</strong><br>\nIl trattamento avverrà per le seguenti finalità:\n<ul>\na) tutela della salute, prevenzione, diagnosi, cura, riabilitazione, assistenza;<br>\nb) attività amministrative connesse alle prestazioni;<br>\nc) igiene e sicurezza nei luoghi di lavoro;<br>\nd) gestione e valutazione delle sedute chinesiologiche;<br>\ne) obblighi di legge;<br>\nf) difesa in giudizio;<br>\ng) ricerca scientifica e ricontatto del paziente per finalità affini;<br>\nh) comunicazione dello stato di salute a familiari/terzi;<br>\ni) comunicazione della presenza presso lo Studio;<br>\nj) comunicazione a compagnie assicurative.<br>\n</ul>\nPer h), i), j) è richiesto consenso esplicito.</p>\n\n<p><strong>3. Natura del conferimento e conseguenze del rifiuto</strong><br>\nIl conferimento è obbligatorio per accedere alle prestazioni; il mancato conferimento ne impedisce l’erogazione.</p>\n\n<p><strong>4. Modalità del trattamento</strong><br>\nIl trattamento sarà eseguito tramite strumenti informatici/manuali, garantendo riservatezza e sicurezza nel rispetto del GDPR e del Codice Privacy. Solo soggetti autorizzati vi avranno accesso.</p>\n\n<p><strong>5. Conservazione dei dati</strong><br>\nI dati saranno conservati per il tempo necessario alle finalità indicate. Potranno essere comunicati a soggetti pubblici o privati per l'espletamento dell'incarico.</p>\n\n<p><strong>6. Comunicazione dei dati</strong><br>\nI dati potranno essere comunicati a:\n<ul>\n<li>enti sanitari pubblici e privati;</li>\n<li>autorità pubbliche, giudiziarie, organismi sanitari;</li>\n<li>laboratori, consulenti, collaboratori, familiari, medici, fisioterapisti;</li>\n<li>società fornitrici di servizi IT;</li>\n<li>società collegate per fini contabili o organizzativi.</li>\n</ul>\nNon è previsto il trasferimento a paesi terzi. Se necessario, avverrà secondo quanto stabilito dal GDPR.</p>\n\n<p><strong>7. Conferimento dei dati</strong><br>\nNecessario per le attività indicate al punto 2.</p>\n\n<p><strong>8. Rifiuto del conferimento</strong><br>\nIl rifiuto comporta l'impossibilità di adempiere alle attività.</p>\n\n<p><strong>9. Diritti dell’interessato</strong><br>\nL'interessato ha diritto di accesso, rettifica, cancellazione, limitazione, opposizione, portabilità dei dati, revoca del consenso e reclamo all'Autorità Garante.</p>\n",
+        "blocks": [
+          {
+            "type": "text_block",
+            "content": "\n<p><strong>Informativa relativa al trattamento dei dati personali</strong><br>\nai sensi dell'art. 13 Regolamento (UE) 2016/679 (GDPR)</p>\n\n<p>Gentile Signora / Egregio Signore,<br>\nLuca Taesi (C.F. TSALCU91A11B157M, P.IVA: 03988720987, PEC: lucataesi@pec.it), in qualità di titolare del trattamento dei dati personali (\"Titolare\"), fornisce le seguenti informazioni ai sensi dell'art. 13 del GDPR.</p>\n\n<p><strong>1. Dati personali oggetto del trattamento</strong><br>\nSaranno trattati Dati Comuni (es. nome, cognome, telefono, email) e Dati Particolari (es. salute, dati biometrici) secondo quanto previsto dall'art. 9 del GDPR.</p>\n\n<p><strong>2. Finalità e base giuridica del trattamento</strong><br>\nIl trattamento avverrà per le seguenti finalità:\n<ul>\na) tutela della salute, prevenzione, diagnosi, cura, riabilitazione, assistenza;<br>\nb) attività amministrative connesse alle prestazioni;<br>\nc) igiene e sicurezza nei luoghi di lavoro;<br>\nd) gestione e valutazione delle sedute chinesiologiche;<br>\ne) obblighi di legge;<br>\nf) difesa in giudizio;<br>\ng) ricerca scientifica e ricontatto del paziente per finalità affini;<br>\nh) comunicazione dello stato di salute a familiari/terzi;<br>\ni) comunicazione della presenza presso lo Studio;<br>\nj) comunicazione a compagnie assicurative.<br>\n</ul>\nPer h), i), j) è richiesto consenso esplicito.</p>\n\n<p><strong>3. Natura del conferimento e conseguenze del rifiuto</strong><br>\nIl conferimento è obbligatorio per accedere alle prestazioni; il mancato conferimento ne impedisce l’erogazione.</p>\n\n<p><strong>4. Modalità del trattamento</strong><br>\nIl trattamento sarà eseguito tramite strumenti informatici/manuali, garantendo riservatezza e sicurezza nel rispetto del GDPR e del Codice Privacy. Solo soggetti autorizzati vi avranno accesso.</p>\n\n<p><strong>5. Conservazione dei dati</strong><br>\nI dati saranno conservati per il tempo necessario alle finalità indicate. Potranno essere comunicati a soggetti pubblici o privati per l'espletamento dell'incarico.</p>\n\n<p><strong>6. Comunicazione dei dati</strong><br>\nI dati potranno essere comunicati a:\n<ul>\n<li>enti sanitari pubblici e privati;</li>\n<li>autorità pubbliche, giudiziarie, organismi sanitari;</li>\n<li>laboratori, consulenti, collaboratori, familiari, medici, fisioterapisti;</li>\n<li>società fornitrici di servizi IT;</li>\n<li>società collegate per fini contabili o organizzativi.</li>\n</ul>\nNon è previsto il trasferimento a paesi terzi. Se necessario, avverrà secondo quanto stabilito dal GDPR.</p>\n\n<p><strong>7. Conferimento dei dati</strong><br>\nNecessario per le attività indicate al punto 2.</p>\n\n<p><strong>8. Rifiuto del conferimento</strong><br>\nIl rifiuto comporta l'impossibilità di adempiere alle attività.</p>\n\n<p><strong>9. Diritti dell’interessato</strong><br>\nL'interessato ha diritto di accesso, rettifica, cancellazione, limitazione, opposizione, portabilità dei dati, revoca del consenso e reclamo all'Autorità Garante.</p>\n"
+          },
+          {
+            "type": "text_input",
+            "label": "Nome e Cognome",
+            "data_key": "patient.full_name"
+          },
+          {
+            "type": "signature",
+            "label": "Firma paziente",
+            "data_key": "firma_1",
+            "validation": {
+              "required": true
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "8",
+      "name": "Dott. Cucchi",
+      "sector": "nutrizione",
+      "area_id": "nutrizione",
+      "active": 1,
+      "config": {
+        "blocks": [
+          {
+            "type": "text_block",
+            "content": "Informativa privacy per Dott. Cucchi"
+          },
+          {
+            "type": "text_input",
+            "label": "Nome e Cognome Paziente *",
+            "data_key": "patient.full_name"
+          },
+          {
+            "type": "text_input",
+            "label": "Data Firma",
+            "data_key": "data_firma",
+            "subtype": "date"
+          },
+          {
+            "type": "signature",
+            "label": "Firma Paziente",
+            "data_key": "firma_1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9",
+      "name": "Dott. Nicolini",
+      "sector": "nutrizione",
+      "area_id": "nutrizione",
+      "active": 1,
+      "config": {
+        "blocks": [
+          {
+            "type": "text_block",
+            "content": "Informativa privacy per Dott. Nicolini"
+          },
+          {
+            "type": "text_input",
+            "label": "Nome e Cognome Paziente *",
+            "data_key": "patient.full_name"
+          },
+          {
+            "type": "text_input",
+            "label": "Data Firma",
+            "data_key": "data_firma",
+            "subtype": "date"
+          },
+          {
+            "type": "signature",
+            "label": "Firma Paziente",
+            "data_key": "firma_1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "10",
+      "name": "Dott. Tognazzi",
+      "sector": "osteopatia",
+      "area_id": "osteopatia",
+      "active": 1,
+      "config": {
+        "blocks": [
+          {
+            "type": "text_block",
+            "content": "Informativa privacy per Dott. Tognazzi"
+          },
+          {
+            "type": "text_input",
+            "label": "Nome e Cognome Paziente *",
+            "data_key": "patient.full_name"
+          },
+          {
+            "type": "text_input",
+            "label": "Data Firma",
+            "data_key": "data_firma",
+            "subtype": "date"
+          },
+          {
+            "type": "signature",
+            "label": "Firma Paziente",
+            "data_key": "firma_1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "11",
+      "name": "Dott. Tommaso Mosconi",
+      "sector": "fisioterapia",
+      "area_id": "fisioterapia",
+      "active": 1,
+      "config": {
+        "nome": "Dott. Tommaso Mosconi",
+        "firme": 1,
+        "etichette_firme": [
+          "Firma del paziente"
+        ],
+        "testo_informativa": "<h3>INFORMATIVA SUL TRATTAMENTO DEI DATI PERSONALI</h3>\n<p>ai sensi dell’art. 13 del Regolamento UE 2016/679 (GDPR)</p>\n<p>Il/La sottoscritto/a <strong>Tommaso Mosconi (FISIOTERAPISTA)</strong>, con studio in Via Cuzzetti 7, Brescia, 25136, P. IVA 03593220985, e-mail: tommaso.mosconi11@gmail.com, in qualità di Titolare del trattamento, informa il paziente che i dati personali forniti saranno trattati nel rispetto della normativa vigente in materia di protezione dei dati personali.</p>\n<p><strong>1. TIPOLOGIA DI DATI TRATTATI</strong><br>Potranno essere trattati:</p>\n<ul>\n<li>dati anagrafici e di contatto del paziente;</li>\n<li>dati amministrativi e fiscali;</li>\n<li>dati relativi alla salute, anamnestici e clinici, referti, certificazioni, prescrizioni, immagini o altra documentazione sanitaria eventualmente necessaria ai fini della valutazione e del trattamento fisioterapico;</li>\n<li>dati del genitore/tutore, ove il paziente sia minorenne o sottoposto a tutela.</li>\n</ul>\n<p><strong>2. FINALITÀ DEL TRATTAMENTO</strong><br>I dati personali saranno trattati per le seguenti finalità:</p>\n<ul>\n<li>prenotazione, gestione e conferma degli appuntamenti;</li>\n<li>valutazione fisioterapica, prevenzione, diagnosi funzionale, riabilitazione, trattamento terapeutico e gestione del rapporto di cura;</li>\n<li>tenuta della documentazione sanitaria e professionale relativa alle prestazioni erogate;</li>\n<li>adempimento di obblighi amministrativi, contabili e fiscali;</li>\n<li>eventuale tutela dei diritti del Titolare in sede giudiziale o stragiudiziale.</li>\n</ul>\n<p><strong>3. BASE GIURIDICA DEL TRATTAMENTO</strong><br>Il trattamento si fonda:</p>\n<ul>\n<li>sull’esecuzione del rapporto professionale richiesto dal paziente;</li>\n<li>sull’adempimento di obblighi di legge;</li>\n<li>per i dati relativi alla salute, sulla necessità del trattamento per finalità di diagnosi, assistenza o terapia sanitaria effettuate da un professionista sanitario soggetto al segreto professionale.</li>\n</ul>\n<p><strong>4. MODALITÀ DEL TRATTAMENTO</strong><br>Il trattamento sarà effettuato con strumenti cartacei e/o elettronici, secondo principi di liceità, correttezza, trasparenza, pertinenza e minimizzazione, adottando misure tecniche e organizzative adeguate a garantire la riservatezza e la sicurezza dei dati.</p>\n<p><strong>5. NATURA DEL CONFERIMENTO DEI DATI</strong><br>Il conferimento dei dati necessari alle finalità di cura, amministrative e fiscali è necessario. L’eventuale rifiuto di fornire tali dati può rendere impossibile l’erogazione della prestazione professionale o il corretto adempimento degli obblighi di legge.</p>\n<p><strong>6. DESTINATARI O CATEGORIE DI DESTINATARI DEI DATI</strong><br>I dati potranno essere comunicati, nei limiti strettamente pertinenti alle finalità sopra indicate, a:</p>\n<ul>\n<li>collaboratori e soggetti autorizzati al trattamento;</li>\n<li>consulente fiscale/contabile;</li>\n<li>fornitori di servizi informatici, gestionali, cloud, posta elettronica o conservazione documentale, nominati ove necessario responsabili del trattamento;</li>\n<li>istituti bancari per la gestione dei pagamenti;</li>\n<li>enti pubblici o autorità, quando previsto dalla legge;</li>\n<li>altri professionisti sanitari o medici curanti, solo nei casi consentiti e/o su richiesta o autorizzazione dell’interessato, quando ciò sia utile alla continuità assistenziale.</li>\n</ul>\n<p>I dati relativi alla salute non saranno diffusi.</p>\n<p><strong>7. PERIODO DI CONSERVAZIONE</strong><br>I dati saranno conservati per il tempo strettamente necessario al perseguimento delle finalità per cui sono raccolti e, successivamente, per il periodo richiesto da obblighi di legge, fiscali, civilistici o per la tutela dei diritti del Titolare.</p>\n<ul>\n<li>documentazione amministrativa e fiscale: 10 anni dalla data del documento contabile;</li>\n<li>documentazione sanitaria/professionale: 10 anni dalla data dell’ultima prestazione, salvo eventuali termini più lunghi previsti dalla legge o necessari per la tutela dei diritti del Titolare.</li>\n</ul>\n<p><strong>8. DIRITTI DELL’INTERESSATO</strong><br>L’interessato può esercitare i diritti previsti dagli artt. 15 e seguenti del GDPR, tra cui:</p>\n<ul>\n<li>accesso ai dati personali;</li>\n<li>rettifica dei dati inesatti o integrazione di quelli incompleti;</li>\n<li>cancellazione, nei casi previsti dalla legge;</li>\n<li>limitazione del trattamento, nei casi previsti;</li>\n<li>opposizione, quando applicabile;</li>\n<li>portabilità dei dati, quando applicabile;</li>\n<li>proporre reclamo al Garante per la protezione dei dati personali.</li>\n</ul>\n<p>Le richieste possono essere inviate al Titolare ai recapiti sopra indicati.</p>\n<p><strong>9. TRASFERIMENTO DATI EXTRA UE</strong><br>I dati non saranno trasferiti fuori dallo Spazio Economico Europeo.</p>\n<p><strong>10. MINORI O SOGGETTI SOTTOPOSTI A TUTELA</strong><br>Nel caso di paziente minorenne o soggetto sottoposto a tutela/amministrazione di sostegno, i dati potranno essere raccolti e trattati anche tramite il genitore, tutore o soggetto legittimato.</p>\n<p><strong>DICHIARAZIONE DI PRESA VISIONE</strong></p>\n<p>Il/La sottoscritto/a dichiara di aver ricevuto e letto l’informativa sul trattamento dei dati personali ai sensi dell’art. 13 del Regolamento UE 2016/679.</p>",
+        "blocks": [
+          {
+            "type": "text_block",
+            "content": "<h3>INFORMATIVA SUL TRATTAMENTO DEI DATI PERSONALI</h3>\n<p>ai sensi dell’art. 13 del Regolamento UE 2016/679 (GDPR)</p>\n<p>Il/La sottoscritto/a <strong>Tommaso Mosconi (FISIOTERAPISTA)</strong>, con studio in Via Cuzzetti 7, Brescia, 25136, P. IVA 03593220985, e-mail: tommaso.mosconi11@gmail.com, in qualità di Titolare del trattamento, informa il paziente che i dati personali forniti saranno trattati nel rispetto della normativa vigente in materia di protezione dei dati personali.</p>\n<p><strong>1. TIPOLOGIA DI DATI TRATTATI</strong><br>Potranno essere trattati:</p>\n<ul>\n<li>dati anagrafici e di contatto del paziente;</li>\n<li>dati amministrativi e fiscali;</li>\n<li>dati relativi alla salute, anamnestici e clinici, referti, certificazioni, prescrizioni, immagini o altra documentazione sanitaria eventualmente necessaria ai fini della valutazione e del trattamento fisioterapico;</li>\n<li>dati del genitore/tutore, ove il paziente sia minorenne o sottoposto a tutela.</li>\n</ul>\n<p><strong>2. FINALITÀ DEL TRATTAMENTO</strong><br>I dati personali saranno trattati per le seguenti finalità:</p>\n<ul>\n<li>prenotazione, gestione e conferma degli appuntamenti;</li>\n<li>valutazione fisioterapica, prevenzione, diagnosi funzionale, riabilitazione, trattamento terapeutico e gestione del rapporto di cura;</li>\n<li>tenuta della documentazione sanitaria e professionale relativa alle prestazioni erogate;</li>\n<li>adempimento di obblighi amministrativi, contabili e fiscali;</li>\n<li>eventuale tutela dei diritti del Titolare in sede giudiziale o stragiudiziale.</li>\n</ul>\n<p><strong>3. BASE GIURIDICA DEL TRATTAMENTO</strong><br>Il trattamento si fonda:</p>\n<ul>\n<li>sull’esecuzione del rapporto professionale richiesto dal paziente;</li>\n<li>sull’adempimento di obblighi di legge;</li>\n<li>per i dati relativi alla salute, sulla necessità del trattamento per finalità di diagnosi, assistenza o terapia sanitaria effettuate da un professionista sanitario soggetto al segreto professionale.</li>\n</ul>\n<p><strong>4. MODALITÀ DEL TRATTAMENTO</strong><br>Il trattamento sarà effettuato con strumenti cartacei e/o elettronici, secondo principi di liceità, correttezza, trasparenza, pertinenza e minimizzazione, adottando misure tecniche e organizzative adeguate a garantire la riservatezza e la sicurezza dei dati.</p>\n<p><strong>5. NATURA DEL CONFERIMENTO DEI DATI</strong><br>Il conferimento dei dati necessari alle finalità di cura, amministrative e fiscali è necessario. L’eventuale rifiuto di fornire tali dati può rendere impossibile l’erogazione della prestazione professionale o il corretto adempimento degli obblighi di legge.</p>\n<p><strong>6. DESTINATARI O CATEGORIE DI DESTINATARI DEI DATI</strong><br>I dati potranno essere comunicati, nei limiti strettamente pertinenti alle finalità sopra indicate, a:</p>\n<ul>\n<li>collaboratori e soggetti autorizzati al trattamento;</li>\n<li>consulente fiscale/contabile;</li>\n<li>fornitori di servizi informatici, gestionali, cloud, posta elettronica o conservazione documentale, nominati ove necessario responsabili del trattamento;</li>\n<li>istituti bancari per la gestione dei pagamenti;</li>\n<li>enti pubblici o autorità, quando previsto dalla legge;</li>\n<li>altri professionisti sanitari o medici curanti, solo nei casi consentiti e/o su richiesta o autorizzazione dell’interessato, quando ciò sia utile alla continuità assistenziale.</li>\n</ul>\n<p>I dati relativi alla salute non saranno diffusi.</p>\n<p><strong>7. PERIODO DI CONSERVAZIONE</strong><br>I dati saranno conservati per il tempo strettamente necessario al perseguimento delle finalità per cui sono raccolti e, successivamente, per il periodo richiesto da obblighi di legge, fiscali, civilistici o per la tutela dei diritti del Titolare.</p>\n<ul>\n<li>documentazione amministrativa e fiscale: 10 anni dalla data del documento contabile;</li>\n<li>documentazione sanitaria/professionale: 10 anni dalla data dell’ultima prestazione, salvo eventuali termini più lunghi previsti dalla legge o necessari per la tutela dei diritti del Titolare.</li>\n</ul>\n<p><strong>8. DIRITTI DELL’INTERESSATO</strong><br>L’interessato può esercitare i diritti previsti dagli artt. 15 e seguenti del GDPR, tra cui:</p>\n<ul>\n<li>accesso ai dati personali;</li>\n<li>rettifica dei dati inesatti o integrazione di quelli incompleti;</li>\n<li>cancellazione, nei casi previsti dalla legge;</li>\n<li>limitazione del trattamento, nei casi previsti;</li>\n<li>opposizione, quando applicabile;</li>\n<li>portabilità dei dati, quando applicabile;</li>\n<li>proporre reclamo al Garante per la protezione dei dati personali.</li>\n</ul>\n<p>Le richieste possono essere inviate al Titolare ai recapiti sopra indicati.</p>\n<p><strong>9. TRASFERIMENTO DATI EXTRA UE</strong><br>I dati non saranno trasferiti fuori dallo Spazio Economico Europeo.</p>\n<p><strong>10. MINORI O SOGGETTI SOTTOPOSTI A TUTELA</strong><br>Nel caso di paziente minorenne o soggetto sottoposto a tutela/amministrazione di sostegno, i dati potranno essere raccolti e trattati anche tramite il genitore, tutore o soggetto legittimato.</p>\n<p><strong>DICHIARAZIONE DI PRESA VISIONE</strong></p>\n<p>Il/La sottoscritto/a dichiara di aver ricevuto e letto l’informativa sul trattamento dei dati personali ai sensi dell’art. 13 del Regolamento UE 2016/679.</p>"
+          },
+          {
+            "type": "text_input",
+            "label": "Nome e Cognome",
+            "data_key": "patient.full_name",
+            "validation": {
+              "required": true
+            }
+          },
+          {
+            "type": "text_input",
+            "label": "Residenza",
+            "data_key": "patient.residenza"
+          },
+          {
+            "type": "text_input",
+            "label": "Codice Fiscale",
+            "data_key": "patient.codice_fiscale"
+          },
+          {
+            "type": "text_input",
+            "label": "Luogo",
+            "data_key": "luogo"
+          },
+          {
+            "type": "text_input",
+            "label": "Data",
+            "data_key": "data_firma",
+            "subtype": "date"
+          },
+          {
+            "type": "signature",
+            "label": "Firma del paziente",
+            "data_key": "firma_1",
+            "validation": {
+              "required": true
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "12",
+      "name": "Dott.ssa Elisa Strano",
+      "sector": "ortottica",
+      "area_id": "ortottica",
+      "active": 1,
+      "config": {
+        "nome": "Dott.ssa Elisa Strano",
+        "firme": 1,
+        "etichette_firme": [
+          "Firma del paziente (o del genitore in caso di minore)"
+        ],
+        "testo_informativa": "\nGentili signori, ai sensi dell’art. 13 del Regolamento europeo 679/2016 desidero informarVi che i dati personali da Voi forniti saranno trattati per le sole finalità connesse alle attività necessarie per prevenzione, diagnosi, cura, riabilitazione o per altre prestazioni da voi richieste, farmaceutiche e specialistiche e che il trattamento sarà effettuato nel rispetto della normativa vigente e dei principi di correttezza, liceità, trasparenza e tutela della riservatezza da essa previsti.<br><br>\n\n<strong>Titolare del trattamento:</strong> Dott.ssa Elisa Strano, Ortottista ed Assistente in Oftalmologia, P.IVA 03794050983, C.F. STRLSE88C56E333J, con sede in Via Corfù 71, 25124 Brescia (BS) presso il Centro VIRTUS GROUP, contattabile ai seguenti recapiti: Tel +39 3661401043, mail strano.elisa@hotmail.it.<br><br>\n\n<strong>Finalità del trattamento:</strong> i dati da Voi forniti verranno trattati dalla scrivente per la gestione dell’attività lavorativa che le compete.<br><br>\n\n<strong>Trasferibilità dei dati in paesi terzi:</strong> i dati non saranno trasferiti a paesi terzi; qualora ciò dovesse avvenire, la presente informativa verrà aggiornata di conseguenza.<br><br>\n\n<strong>Periodo di conservazione dei dati:</strong> i dati vengono conservati fino a quando non verrà esercitato il diritto di opposizione ai sensi dell’art. 21 GDPR.<br><br>\n\n<strong>Diritti dell’interessato:</strong> l’interessato ha diritto di chiedere al Titolare l’accesso ai propri dati ai sensi dell’art. 15 GDPR, la rettifica ai sensi dell’art. 16 GDPR, la cancellazione ai sensi dell’art. 17 GDPR, la limitazione ai sensi dell’art. 18 GDPR, di opporsi al trattamento ai sensi dell’art. 21 GDPR e di esercitare la portabilità ai sensi dell’art. 20 GDPR. Per l’esercizio dei diritti: strano.elisa@pec.it.<br><br>\n\n<strong>Diritto di reclamo:</strong> l’interessato ha facoltà di proporre reclamo all’Autorità Garante della privacy.<br><br>\n\n<strong>Modalità del trattamento:</strong> il trattamento avviene mediante supporti cartacei e informatici, nel rispetto delle misure di sicurezza previste dal GDPR.<br><br>\n\n<strong>Comunicazione e diffusione:</strong> i dati non saranno diffusi a soggetti indeterminati; potranno essere comunicati solo a professionisti sanitario‑assistenziali per finalità di cura.<br>\n",
+        "blocks": [
+          {
+            "type": "section",
+            "title": "Dati del Genitore/Tutore",
+            "children": [
+              {
+                "type": "row",
+                "children": [
+                  {
+                    "type": "text_input",
+                    "label": "Nome",
+                    "data_key": "nome",
+                    "subtype": "text",
+                    "validation": {
+                      "required": true
+                    }
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "Cognome",
+                    "data_key": "cognome",
+                    "subtype": "text",
+                    "validation": {
+                      "required": true
+                    }
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "Codice Fiscale",
+                    "data_key": "genitore_cf",
+                    "subtype": "text",
+                    "validation": {
+                      "required": true
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "row",
+                "children": [
+                  {
+                    "type": "text_input",
+                    "label": "Nato/a a",
+                    "data_key": "luogo_nascita",
+                    "subtype": "text",
+                    "validation": {
+                      "required": true
+                    }
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "Prov.",
+                    "data_key": "prov_nascita_genitore",
+                    "subtype": "text",
+                    "validation": {
+                      "required": true
+                    }
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "Il",
+                    "data_key": "data_nascita",
+                    "subtype": "date",
+                    "validation": {
+                      "required": true
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "row",
+                "children": [
+                  {
+                    "type": "text_input",
+                    "label": "Residente in Via/Piazza",
+                    "data_key": "indirizzo",
+                    "subtype": "text",
+                    "validation": {
+                      "required": true
+                    }
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "N.",
+                    "data_key": "n_residenza_genitore",
+                    "subtype": "text",
+                    "validation": {
+                      "required": true
+                    }
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "Città",
+                    "data_key": "genitore_città",
+                    "subtype": "text",
+                    "validation": {
+                      "required": true
+                    }
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "Prov.",
+                    "data_key": "prov_residenza_genitore",
+                    "subtype": "text",
+                    "validation": {
+                      "required": true
+                    }
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "CAP",
+                    "data_key": "genitore_cap",
+                    "subtype": "text"
+                  }
+                ]
+              },
+              {
+                "type": "row",
+                "children": [
+                  {
+                    "type": "text_input",
+                    "label": "Cellulare",
+                    "data_key": "genitore_tel",
+                    "subtype": "text"
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "Email",
+                    "data_key": "genitore_email",
+                    "subtype": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "section",
+            "title": "In qualità di MADRE/PADRE di:",
+            "children": [
+              {
+                "type": "row",
+                "children": [
+                  {
+                    "type": "text_input",
+                    "label": "Cognome e nome del/la figlio/a",
+                    "data_key": "minore_nome",
+                    "subtype": "text"
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "Nato/a a",
+                    "data_key": "minore_luogo_nascita",
+                    "subtype": "text"
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "Prov.",
+                    "data_key": "prov_minore",
+                    "subtype": "text"
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "Il",
+                    "data_key": "minore_data_nascita",
+                    "subtype": "date"
+                  }
+                ]
+              },
+              {
+                "type": "row",
+                "children": [
+                  {
+                    "type": "text_input",
+                    "label": "Codice Fiscale",
+                    "data_key": "minore_cf",
+                    "subtype": "text"
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "Residente in Via/Piazza",
+                    "data_key": "minore_indirizzo",
+                    "subtype": "text"
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "N.",
+                    "data_key": "n_residenza_minore",
+                    "subtype": "text"
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "Città",
+                    "data_key": "minore_città",
+                    "subtype": "text"
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "Prov.",
+                    "data_key": "prov_residenza_minore",
+                    "subtype": "text"
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "CAP",
+                    "data_key": "minore_cap",
+                    "subtype": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text_block",
+            "content": "<h3 style='text-align:center; margin-top:20px;'>Visto e compreso</h3> tutto quanto sopra indicato,<br><br>Dichiara di essere stato/a informato/a su quanto precedentemente detto nell’esercizio della responsabilità genitoriale o rappresentanza legale sulla/sul minore e"
+          },
+          {
+            "type": "choice",
+            "label": "",
+            "data_key": "consenso_info",
+            "options": [
+              {
+                "value": "FORNISCE IL CONSENSO",
+                "label": "FORNISCE IL CONSENSO"
+              },
+              {
+                "value": "NON FORNISCE IL CONSENSO",
+                "label": "NON FORNISCE IL CONSENSO"
+              }
+            ],
+            "validation": {
+              "required": true
+            }
+          },
+          {
+            "type": "signature",
+            "label": "Firma del paziente (o del genitore in caso di minore)",
+            "data_key": "firma1",
+            "validation": {
+              "required": true
+            }
+          },
+          {
+            "type": "section",
+            "title": "",
+            "children": [
+              {
+                "type": "row",
+                "children": [
+                  {
+                    "type": "text_input",
+                    "label": "Luogo",
+                    "data_key": "firma_luogo",
+                    "subtype": "text",
+                    "validation": {
+                      "required": true
+                    }
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "Data",
+                    "data_key": "firma_data",
+                    "subtype": "date",
+                    "validation": {
+                      "required": true
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "disable_legacy_injection": true
+      }
+    },
+    {
+      "id": "13",
+      "name": "Dott. Lorenzo Quaresima",
+      "sector": "massoterapia",
+      "area_id": "massoterapia",
+      "active": 1,
+      "config": {
+        "blocks": [
+          {
+            "type": "text_block",
+            "content": "Informativa privacy per Dott. Lorenzo Quaresima"
+          },
+          {
+            "type": "text_input",
+            "label": "Nome e Cognome Paziente *",
+            "data_key": "patient.full_name"
+          },
+          {
+            "type": "text_input",
+            "label": "Data Firma",
+            "data_key": "data_firma",
+            "subtype": "date"
+          },
+          {
+            "type": "signature",
+            "label": "Firma Paziente",
+            "data_key": "firma_1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14",
+      "name": "Dott. Buizza",
+      "sector": "nutrizione",
+      "area_id": "nutrizione",
+      "active": 1,
+      "config": {
+        "nome": "Dott. Buizza",
+        "firme": 1,
+        "etichette_firme": [
+          "Firma paziente"
+        ],
+        "testo_informativa": " <p>Ai sensi dell’art. 13 del <strong>Regolamento (UE) 2016/679</strong> (“GDPR”), in relazione ai dati personali che La riguardano e che saranno oggetto di trattamento, La informo di quanto segue.</p>\n\n  1. I dati (anche appartenenti a particolari categorie ai sensi dell’art. 9 GDPR) da Lei forniti verranno trattati secondo i principi di liceità, correttezza, trasparenza, adeguatezza e minimizzazione, nei limiti di quanto previsto dal Regolamento, per finalità di consulenza, anamnesi e redazione di una corretta alimentazione connesse all’assolvimento dell’incarico professionale da Lei conferito.<br><br>\n\n  2. Il trattamento sarà effettuato sia manualmente sia mediante strumenti elettronici.<br><br>\n\n  3. Il conferimento dei dati è obbligatorio per poter assolvere all’incarico conferito per le finalità di cui al punto 1; l’eventuale rifiuto di fornirli comporta l’impossibilità di dare esecuzione al contratto e, quindi, di erogare la prestazione sanitaria richiesta e la relativa assistenza.<br><br>\n\n  4. I dati non saranno in alcun caso diffusi e saranno comunicati esclusivamente a soggetti autorizzati e al professionista esterno che, in qualità di responsabile del trattamento, cura la contabilità dello Studio. In tale ultimo caso saranno comunicati solo i dati strettamente necessari all’assolvimento degli obblighi contabili e fiscali.<br><br>\n\n  5. Le fatture relative alle prestazioni sanitarie rese verranno inviate al Sistema Tessera Sanitaria per la predisposizione del Modello 730 precompilato. Qualora volesse opporsi a tale invio, potrà comunicarlo oralmente al Titolare, che provvederà ad annotare l’opposizione sulla Sua fattura.<br><br>\n\n  6. Il Titolare del trattamento è il Dott. Paolo Felice Buizza, con sede legale in Via Rose 24/B, Travagliato (BS), e studio in Via Lombardia 31, Rovato.<br><br>\n\n  7. In ogni momento potrà esercitare nei confronti del Titolare i Suoi diritti previsti dagli artt. 15–22 GDPR, tra cui accesso, rettifica o cancellazione dei dati, limitazione del trattamento, opposizione e portabilità dei dati.<br><br>\n\n  8. Per la tutela dei suddetti diritti, potrà proporre reclamo all’Autorità Garante per la Protezione dei Dati Personali.<br><br>\n\n  9. I Suoi dati saranno conservati per il tempo necessario al raggiungimento delle finalità di cui al punto 1 e, in ogni caso, per l’adempimento degli obblighi previsti dalle normative sanitarie e fiscali applicabili.<br><br>\n\n  10. Il consenso eventualmente prestato con la sottoscrizione del presente modulo è in ogni momento revocabile. L’esercizio del diritto di revoca non pregiudica la liceità del trattamento basata sul consenso prima della revoca, né le prestazioni già rese.<br>",
+        "blocks": [
+          {
+            "type": "text_block",
+            "content": " <p>Ai sensi dell’art. 13 del <strong>Regolamento (UE) 2016/679</strong> (“GDPR”), in relazione ai dati personali che La riguardano e che saranno oggetto di trattamento, La informo di quanto segue.</p>\n\n  1. I dati (anche appartenenti a particolari categorie ai sensi dell’art. 9 GDPR) da Lei forniti verranno trattati secondo i principi di liceità, correttezza, trasparenza, adeguatezza e minimizzazione, nei limiti di quanto previsto dal Regolamento, per finalità di consulenza, anamnesi e redazione di una corretta alimentazione connesse all’assolvimento dell’incarico professionale da Lei conferito.<br><br>\n\n  2. Il trattamento sarà effettuato sia manualmente sia mediante strumenti elettronici.<br><br>\n\n  3. Il conferimento dei dati è obbligatorio per poter assolvere all’incarico conferito per le finalità di cui al punto 1; l’eventuale rifiuto di fornirli comporta l’impossibilità di dare esecuzione al contratto e, quindi, di erogare la prestazione sanitaria richiesta e la relativa assistenza.<br><br>\n\n  4. I dati non saranno in alcun caso diffusi e saranno comunicati esclusivamente a soggetti autorizzati e al professionista esterno che, in qualità di responsabile del trattamento, cura la contabilità dello Studio. In tale ultimo caso saranno comunicati solo i dati strettamente necessari all’assolvimento degli obblighi contabili e fiscali.<br><br>\n\n  5. Le fatture relative alle prestazioni sanitarie rese verranno inviate al Sistema Tessera Sanitaria per la predisposizione del Modello 730 precompilato. Qualora volesse opporsi a tale invio, potrà comunicarlo oralmente al Titolare, che provvederà ad annotare l’opposizione sulla Sua fattura.<br><br>\n\n  6. Il Titolare del trattamento è il Dott. Paolo Felice Buizza, con sede legale in Via Rose 24/B, Travagliato (BS), e studio in Via Lombardia 31, Rovato.<br><br>\n\n  7. In ogni momento potrà esercitare nei confronti del Titolare i Suoi diritti previsti dagli artt. 15–22 GDPR, tra cui accesso, rettifica o cancellazione dei dati, limitazione del trattamento, opposizione e portabilità dei dati.<br><br>\n\n  8. Per la tutela dei suddetti diritti, potrà proporre reclamo all’Autorità Garante per la Protezione dei Dati Personali.<br><br>\n\n  9. I Suoi dati saranno conservati per il tempo necessario al raggiungimento delle finalità di cui al punto 1 e, in ogni caso, per l’adempimento degli obblighi previsti dalle normative sanitarie e fiscali applicabili.<br><br>\n\n  10. Il consenso eventualmente prestato con la sottoscrizione del presente modulo è in ogni momento revocabile. L’esercizio del diritto di revoca non pregiudica la liceità del trattamento basata sul consenso prima della revoca, né le prestazioni già rese.<br>"
+          },
+          {
+            "type": "text_input",
+            "label": "Nome e Cognome",
+            "data_key": "patient.full_name"
+          },
+          {
+            "type": "text_input",
+            "label": "Residenza",
+            "data_key": "patient.residenza"
+          },
+          {
+            "type": "text_input",
+            "label": "Codice Fiscale",
+            "data_key": "patient.codice_fiscale"
+          },
+          {
+            "type": "signature",
+            "label": "Firma paziente",
+            "data_key": "firma_1",
+            "validation": {
+              "required": true
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "15",
+      "name": "Dott.ssa Angela Lucente",
+      "sector": "ortottica",
+      "area_id": "ortottica",
+      "active": 1,
+      "config": {
+        "nome": "Dott.ssa Angela Lucente",
+        "firme": 1,
+        "etichette_firme": [
+          "Firma del paziente (o del genitore in caso di minore)"
+        ],
+        "testo_informativa": "\n<p>Gentili signori, ai sensi dell’art. 13 del Regolamento europeo 679/2016 desidero informarVi che i dati personali da Voi forniti saranno trattati per le sole finalità connesse alle attività necessarie per prevenzione, diagnosi, cura, riabilitazione o per altre prestazioni da voi richieste, farmaceutiche e specialistiche, nel rispetto della normativa vigente e dei principi di correttezza, liceità, trasparenza e tutela della riservatezza da essa previsti.</p>\n\n<p><strong>Titolare del trattamento:</strong> Dott.ssa Angela Lucente, Ortottista ed Assistente in Oftalmologia, P.IVA 03215120795, C.F. LCNNGL89M46D122K, con sede in Via Corfù 71, 25124 Brescia (BS) presso il Centro VIRTUS GROUP, contattabile ai seguenti recapiti: Tel +39 3298594474, mail angelalucente89@yahoo.it. La Dott.ssa Angela Lucente è regolarmente iscritta all’ORDINE TSRM di Brescia con il n. 22 dell’Albo della professione sanitaria di ortottista e assistente di oftalmologia. La Dott.ssa Angela Lucente è regolarmente assicurata con Polizza RC professionale ITALIANA ASSICURAZIONE AON DELL’ORDINE TSRM.</p>\n\n<p><strong>Finalità del trattamento:</strong> I dati da Voi forniti verranno trattati dalla scrivente per la gestione dell’attività lavorativa che le compete.</p>\n\n<p><strong>Trasferibilità dei dati in paesi terzi:</strong> I dati non saranno trasferiti a paesi terzi; qualora ciò dovesse avvenire in futuro, la presente informativa verrà aggiornata di conseguenza.</p>\n\n<p><strong>Periodo di conservazione dei dati:</strong> I dati vengono conservati fino all’esercizio del diritto di opposizione ai sensi dell’art. 21 GDPR.</p>\n\n<p><strong>Diritti dell’interessato:</strong> L’interessato ha diritto di chiedere al Titolare l’accesso ai propri dati ai sensi dell’art. 15 GDPR, la rettifica ai sensi dell’art. 16 GDPR, la cancellazione ai sensi dell’art. 17 GDPR, la limitazione ai sensi dell’art. 18 GDPR, di opporsi al trattamento ai sensi dell’art. 21 GDPR e di esercitare la portabilità ai sensi dell’art. 20 GDPR. Per l’esercizio di tali diritti è attivo l’indirizzo angela.lucente@pec.it.</p>\n\n<p><strong>Diritto di reclamo ad autorità di controllo:</strong> L’interessato ha facoltà di proporre reclamo all’Autorità Garante contro il trattamento.</p>\n\n<p><strong>Fornitura dati trattati:</strong> La fornitura di dati personali è finalizzata a garantire un’ottima esecuzione dei rapporti preventivi, valutativi e riabilitativi. Il mancato conferimento dei dati necessari comporta l’impossibilità di instaurare il rapporto nei limiti previsti dalla legge.</p>\n\n<p><strong>Modalità del trattamento:</strong> Il trattamento avviene mediante strumenti cartacei e informatici, garantendo riservatezza e sicurezza.</p>\n\n<p><strong>Comunicazione e diffusione:</strong> I Vostri dati non saranno diffusi a soggetti indeterminati; potranno essere comunicati soltanto a professionisti sanitario‑assistenziali per finalità di cura.</p>\n\n<p><strong>Esercizio dei diritti e revoca del consenso:</strong> Ai sensi dell’art. 7 GDPR è riconosciuta la facoltà di revocare il consenso in qualsiasi momento, scrivendo al Titolare del trattamento via PEC.</p>\n\n<p><strong>Reclami o segnalazioni:</strong> È possibile inoltrare reclami o segnalazioni al Garante per la protezione dei dati personali (via Montecitorio 121, 00186 Roma – pec: protocollo@pec.gpdp.it).</p>\n ",
+        "blocks": [
+          {
+            "type": "section",
+            "title": "Dati del Genitore/Tutore",
+            "children": [
+              {
+                "type": "row",
+                "children": [
+                  {
+                    "type": "text_input",
+                    "label": "Nome",
+                    "data_key": "nome",
+                    "subtype": "text",
+                    "validation": {
+                      "required": true
+                    }
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "Cognome",
+                    "data_key": "cognome",
+                    "subtype": "text",
+                    "validation": {
+                      "required": true
+                    }
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "Codice Fiscale",
+                    "data_key": "genitore_cf",
+                    "subtype": "text",
+                    "validation": {
+                      "required": true
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "row",
+                "children": [
+                  {
+                    "type": "text_input",
+                    "label": "Nato/a a",
+                    "data_key": "luogo_nascita",
+                    "subtype": "text",
+                    "validation": {
+                      "required": true
+                    }
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "Prov.",
+                    "data_key": "prov_nascita_genitore",
+                    "subtype": "text",
+                    "validation": {
+                      "required": true
+                    }
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "Il",
+                    "data_key": "data_nascita",
+                    "subtype": "date",
+                    "validation": {
+                      "required": true
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "row",
+                "children": [
+                  {
+                    "type": "text_input",
+                    "label": "Residente in Via/Piazza",
+                    "data_key": "indirizzo",
+                    "subtype": "text",
+                    "validation": {
+                      "required": true
+                    }
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "N.",
+                    "data_key": "n_residenza_genitore",
+                    "subtype": "text",
+                    "validation": {
+                      "required": true
+                    }
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "Città",
+                    "data_key": "genitore_città",
+                    "subtype": "text",
+                    "validation": {
+                      "required": true
+                    }
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "Prov.",
+                    "data_key": "prov_residenza_genitore",
+                    "subtype": "text",
+                    "validation": {
+                      "required": true
+                    }
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "CAP",
+                    "data_key": "genitore_cap",
+                    "subtype": "text"
+                  }
+                ]
+              },
+              {
+                "type": "row",
+                "children": [
+                  {
+                    "type": "text_input",
+                    "label": "Cellulare",
+                    "data_key": "genitore_tel",
+                    "subtype": "text"
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "Email",
+                    "data_key": "genitore_email",
+                    "subtype": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "section",
+            "title": "In qualità di MADRE/PADRE di:",
+            "children": [
+              {
+                "type": "row",
+                "children": [
+                  {
+                    "type": "text_input",
+                    "label": "Cognome e nome del/la figlio/a",
+                    "data_key": "minore_nome",
+                    "subtype": "text"
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "Nato/a a",
+                    "data_key": "minore_luogo_nascita",
+                    "subtype": "text"
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "Prov.",
+                    "data_key": "prov_minore",
+                    "subtype": "text"
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "Il",
+                    "data_key": "minore_data_nascita",
+                    "subtype": "date"
+                  }
+                ]
+              },
+              {
+                "type": "row",
+                "children": [
+                  {
+                    "type": "text_input",
+                    "label": "Codice Fiscale",
+                    "data_key": "minore_cf",
+                    "subtype": "text"
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "Residente in Via/Piazza",
+                    "data_key": "minore_indirizzo",
+                    "subtype": "text"
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "N.",
+                    "data_key": "n_residenza_minore",
+                    "subtype": "text"
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "Città",
+                    "data_key": "minore_città",
+                    "subtype": "text"
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "Prov.",
+                    "data_key": "prov_residenza_minore",
+                    "subtype": "text"
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "CAP",
+                    "data_key": "minore_cap",
+                    "subtype": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text_block",
+            "content": "<h3 style='text-align:center; margin-top:20px;'>Visto e compreso</h3> tutto quanto sopra indicato,<br><br>Dichiara di essere stato/a informato/a su quanto precedentemente detto nell’esercizio della responsabilità genitoriale o rappresentanza legale sulla/sul minore e"
+          },
+          {
+            "type": "choice",
+            "label": "",
+            "data_key": "consenso_info",
+            "options": [
+              {
+                "value": "FORNISCE IL CONSENSO",
+                "label": "FORNISCE IL CONSENSO"
+              },
+              {
+                "value": "NON FORNISCE IL CONSENSO",
+                "label": "NON FORNISCE IL CONSENSO"
+              }
+            ],
+            "validation": {
+              "required": true
+            }
+          },
+          {
+            "type": "signature",
+            "label": "Firma del paziente (o del genitore in caso di minore)",
+            "data_key": "firma1",
+            "validation": {
+              "required": true
+            }
+          },
+          {
+            "type": "section",
+            "title": "",
+            "children": [
+              {
+                "type": "row",
+                "children": [
+                  {
+                    "type": "text_input",
+                    "label": "Luogo",
+                    "data_key": "firma_luogo",
+                    "subtype": "text",
+                    "validation": {
+                      "required": true
+                    }
+                  },
+                  {
+                    "type": "text_input",
+                    "label": "Data",
+                    "data_key": "firma_data",
+                    "subtype": "date",
+                    "validation": {
+                      "required": true
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "disable_legacy_injection": true
+      }
+    },
+    {
+      "id": "16",
+      "name": "Dott.ssa Morelli",
+      "sector": "chinesiologia",
+      "area_id": "chinesiologia",
+      "active": 1,
+      "config": {
+        "nome": "Dott.ssa Morelli",
+        "firme": 1,
+        "etichette_firme": [
+          "Firma dell’interessato (o del genitore o del tutore in caso di minore):"
+        ],
+        "testo_informativa": "\nGentile Signora/ Egregio Signore, CHIARA MORELLI (C.F. MRLCHR89M61D284W, P.IVA: 03983200985, PEC: morelli.chiara@arubapec.it, con studio in 25124 in Via Corfù, 71 Brescia, Studio Virtus Group) in qualità di titolare del trattamento dei dati personali (infra il “Titolare” ), intende fornirLe, nella Sua qualità di soggetto interessato (infra l’“Interessato”), le specifiche informazioni sul trattamento dei suoi dati personali e che si rende necessario con riferimento alle attività esercitate all’interno della struttura del Titolare, nelle sue diverse articolazioni, ai sensi dell’art. 13 del Regolamento (UE) 2016/679 del Parlamento europeo e del Consiglio del 27 aprile 2016 (“GDPR”) e della normativa europea e nazionale che lo integra e/o lo modifica, ivi compreso il Decreto Legislativo n. 196/2003, come modificato dal Decreto Legislativo n. 101/2018 (di seguito, “Codice Privacy”) (“Normativa Privacy Applicabile”), informandoLa di quanto segue:<p>\n<strong>1. Dati personali oggetto del trattamento</strong><p>\nIl Titolare tratterà i Suoi dati personali comuni, raccolti in occasione e nell’ambito della Sua richiesta di accedere alle prestazioni di prevenzione, cura, diagnosi, riabilitazione, assistenza o sedute chinesiologiche ipotozzate dal Titolare, tra cui rientrano, a titolo esemplificativo e non esaustivo, nome, cognome, numero di telefono mobile, indirizzo e-mail e, in generale, i Suoi dati di contatto (i “Dati Comuni”). Il Titolare tratterà anche i Suoi dati relativi a particolari categorie di cui all’art. 9 del GDPR, vale a dire dati idonei a rivelare, tra l’altro, l’origine razziale ed etnica, nonché dati genetici, dati biometrici intesi a identificare in modo univoco una persona fisica, dati relativi allo stato di salute e alla vita sessuale (i “Dati Particolari”) (i Dati Comuni e i Dati Particolari, di seguito, congiuntamente, i “Dati Personali”).<p>\n<strong>2. Finalità e base giuridica del trattamento</strong><p>\nI Suoi Dati Personali saranno trattati nell'ambito della normale attività del Titolare per le finalità e nel rispetto delle condizioni di liceità di seguito indicate: a) tutela della salute, prevenzione, cura, diagnosi, riabilitazione e assistenza o seduta chinesiologica; b) svolgimento di attività amministrative e certificatorie strettamente connesse al raggiungimento delle finalità sub a) sopra indicate, nonché alla gestione dei rapporti con l’interessato, nelle fasi di accettazione, prenotazione delle sedute chinesiologiche; c) svolgere compiti di igiene e sicurezza sui luoghi di lavoro e sicurezza e salute della popolazione, protezione civile, salvaguardia della vita e incolumità fisica; d) programmazione, gestione, controllo e valutazione delle sedute chinesiologiche, ivi incluse l’instaurazione, la gestione, la pianificazione e il controllo dei rapporti tra il soggetto interessati ed il Titolare; d) per adempiere ad obblighi previsti da leggi, regolamenti e dalla normativa comunitaria, ai sensi degli artt. 6, lett. c) e 9, par. 2, lett. b), del GDPR; e) per far valere o difendere un diritto in giudizio o in una fase propedeutica al giudizio, ai sensi dell’art. 9 par. 2, lett. f), del GDPR; f) per finalità ulteriori di ricerca scientifica correlata alle patologie relative alle sedute chinesiologiche, in particolare per studi osservazionali, ai sensi dell’art. 9 par. 2, lett. j), del GDPR e 110-bis comma 4 del D.lgs. 196/2003; informative più specifiche relative alle finalità di detti studi saranno rese di volta in volta; g) per consentire il ricontatto dell’Interessato tramite email, in relazione alle sedute chinesiologiche già intraprese, anche con finalità di prevenzione da attuarsi con cadenza periodica, nonché per attività di promozione e informazione di servizi analoghi a quelli già fruiti, ai sensi dell’art. 130 comma 4 del D.lgs. 196/2003. L’interessato può opporsi in ogni momento a questo trattamento, scrivendo al Titolare. I Dati Personali raccolti per le finalità di cui alla lettera a) che precede, saranno trattati da o sotto la responsabilità di un professionista soggetto al segreto professionale o da altri soggetti all’obbligo di segretezza conformemente al diritto dell’Unione Europea o del diritto nazionale o alle norme stabilite dagli organismi nazionali competenti, ai sensi dell’art. 9, par. 3, del GDPR. Per le finalità di cui alle lettere a), b), c), d), e), f) e g) non viene richiesto all’Interessato un consenso preventivo, in quanto il trattamento è necessario e legittimato da una delle basi giuridiche sopra indicate. I Dati Personali saranno altresì trattati, nell'ambito della normale attività del Titolare, e solo previo Suo specifico consenso, per le ulteriori finalità e nel rispetto delle condizioni di liceità di seguito indicate: h) per la comunicazione delle informazioni sul Suo stato di salute a soggetti terzi (es. familiari o conoscenti), indicati specificamente dall'Interessato, ove applicabile; i) per la comunicazione della Sua presenza presso lo Studio a soggetti terzi (es. familiari o conoscenti), indicati specificamente dall'Interessato, ove applicabile; j) per la comunicazione, in modalità cartacea e/o telematica, dei suoi Dati Personali a compagnie assicurative private, che ne facciano richiesta al fine di gestire pratiche relative a polizze assicurative da Lei stipulate. Solo in caso di Sua richiesta e conferimento del Suo espresso e distinto consenso, potranno essere oggetto di comunicazione anche dati garantiti da maggior tutela dell’anonimato (ad esempio, dati relativi a infezione da HIV, interruzione volontaria della gravidanza, etc.). In tal caso, i dati saranno trasmessi previa apposita cifratura ed esclusivamente tramite canali protetti da adeguate misure di sicurezza. Per le finalità di cui alle lettere h), i), j) sopra indicate, la condizione di liceità dei trattamenti è il Suo specifico consenso ex art. 6, par. 1, lett. a) e, ove applicabile, ex art. 9, par. 2, lett. a), del GDPR. Il consenso viene rilasciato al primo accesso alla nostra struttura, è facoltativo e l’eventuale rifiuto non avrà conseguenze sulla possibilità di usufruire delle prestazioni. Lei potrà comunque e in ogni momento revocare il Suo consenso senza dover fornire alcuna giustificazione contattando il Titolare ai recapiti indicati e ferma restando la liceità del trattamento basata sul consenso prestato prima della revoca. La informiamo che la presente informativa, unitamente al consenso da Lei rilasciato, hanno efficacia con riferimento alla pluralità di prestazioni erogate.\nIl trattamento dei dati è finalizzato unicamente alla corretta e completa esecuzione dell’incarico professionale connesso alle attività di valutazione chinesiologica, prevenzione, cura e riabilitazione svolte a tutela della sua salute da parte di CHIARA MORELLI.<p>\n<strong>3. Natura del conferimento dei dati e conseguenze dell'eventuale rifiuto</strong><p>\nIl conferimento dei dati richiesti per le finalità delle sedute chinesiologiche e quelle amministrative a queste strettamente correlate è indispensabile; il mancato conferimento potrebbe rendere impossibile all'interessato l'accesso alle prestazioni.<p>\n<strong>4. Modalità del trattamento</strong><p>\nIl trattamento dei Dati Personali avverrà – secondo i principi correttezza, liceità e trasparenza – tramite supporti e/o strumenti informatici, manuali e/o telematici, con logiche strettamente correlate alle finalità del trattamento e, comunque, garantendo la riservatezza e sicurezza dei dati stessi e il rispetto degli obblighi specifici sanciti dalla legge. La disponibilità, la gestione, l’accesso, la conservazione e la fruibilità dei dati è garantita dall’adozione di misure tecniche e organizzative per assicurare idonei livelli di sicurezza ai sensi degli artt. 25 e 32 del GDPR, nonché, in relazione alle specifiche finalità di trattamento individuate dalla normativa applicabile. Il trattamento è svolto ad opera di soggetti debitamente autorizzati e istruiti dal Titolare e in ottemperanza a quanto previsto dall’art. 29 GDPR. Il trattamento dei dati è realizzato per mezzo delle operazioni /complesso di operazioni indicate all’art. 2 del Reg. UE. Il trattamento dei dati è svolto dal Titolare e/o dagli incaricati del trattamento.<p> \n<strong>5. Conservazione dei dati personali</strong><p>\nI Dati Personali saranno conservati solo per il tempo necessario ai fini per cui sono raccolti, rispettando il principio di minimizzazione di cui all’articolo 5, comma 1, lettera c) del GDPR, nonché in esecuzione degli obblighi di legge cui è tenuto il Titolare. La revoca del consenso non pregiudica la liceità del trattamento dei dati effettuato dal Titolare prima della revoca. I dati potranno essere comunicati a soggetti pubblici o privati, nei limiti strettamente pertinenti all’espletamento dell’incarico conferito e nel rispetto, in ogni caso, del segreto professionale.<p>\n<strong>6. Ambito di comunicazione dei dati personali</strong><p>\nI Suoi Dati Personali non saranno oggetto di diffusione, fatta salva l'ipotesi in cui la comunicazione o diffusione sia richiesta, in conformità alla legge, da soggetti pubblici per finalità di difesa o di sicurezza o di prevenzione, accertamento o repressione di reati. Nello svolgimento della propria attività e per il perseguimento delle finalità, il Titolare potrebbe comunicare i Suoi Dati Personali, anche riguardanti il Suo stato di salute, a: - soggetti terzi, nell’ambito di un rapporto contrattuale o convenzionale con il Titolare, per consentire l’esecuzione di alcune prestazioni in favore dell’interessato da parte di soggetti esterni altamente qualificati per quella specifica prestazione, ovvero per effettuare analisi presso laboratori esterni, i quali agiranno tipicamente in qualità di responsabili del trattamento ex art. 28 del GDPR ovvero, in specifiche situazioni, in qualità di titolari o contitolari del trattamento; - enti sanitari e ospedalieri pubblici e privati, enti del servizio sanitario regionale e nazionale, organismi sanitari di controllo, organi della pubblica amministrazione, autorità di pubblica sicurezza, autorità giudiziaria ed enti assicurativi e altri soggetti, enti o autorità che agiscono nella loro qualità di titolari autonomi del trattamento, a cui sia obbligatorio comunicare i Dati Personali in forza di disposizioni di legge o di ordini delle autorità; - enti o strutture di ricovero o residenziali al fine di garantire la continuità delle cure una volta terminato il percorso ospedaliero, tramite percorsi post-dimissione, assistenza continuativa o attivazione di assistenza domiciliare, per le finalità di assistenza o di sedute chinesiologiche o sociale ovvero gestione dei sistemi e servizi sanitari o sociali che agiscono tipicamente nella loro qualità di titolari autonomi; - fornitori di servizi strettamente correlati e funzionali all’attività del Titolare i quali agiscono tipicamente in qualità di responsabili del trattamento ex art. 28 del GDPR, tra cui i fornitori di servizi IT per la gestione dell’infrastruttura tecnologica, dei sistemi informativi e delle reti di telecomunicazione; - società controllate e collegate del Titolare per finalità amministrative e contabili, intendendosi per tali quelle connesse all’attività di natura organizzativa, amministrativa, finanziaria e contabile, a prescindere dalla natura dei dati trattati. I dati personali possono dunque venire a conoscenza degli incaricati del trattamento e possono essere comunicati anche a familiari, laboratorio analisi, medici specialisti, farmacisti, aziende ospedaliere, case di cura private, fiscalisti, medici associati, fisioterapisti, collaboratori interni\\esterni, soggetti comunque operanti nel settore medico-fisioterapico e, in genere, a tutti quei soggetti cui la comunicazione sia necessaria per il corretto adempimento delle finalità indicate nel punto 2. Tali soggetti agiranno, di regola, quali autonomi Titolari delle rispettive operazioni di trattamento, salvo il caso in cui agiscano per conto del Titolare in qualità di Responsabili del trattamento e abbiano pertanto sottoscritto un apposito contratto che disciplini puntualmente i trattamenti loro affidati, ai sensi dell’art. 28 del GDPR. L’elenco completo ed aggiornato dei destinatari dei dati potrà essere richiesto al Titolare. I Suoi Dati Personali non saranno oggetto di trasferimento verso Paesi Terzi rispetto all’Unione Europea od organizzazioni internazionali. Qualora tale trasferimento dovesse rendersi necessario per perseguire le finalità sopra descritte, si rende noto che l’eventuale trattamento avverrà esclusivamente verso Paesi oggetto di una decisione di adeguatezza da parte della Commissione Europea o, in ogni caso, secondo le modalità consentite dagli artt. 46 e seguenti GDPR., quali ad esempio il consenso dell’interessato o l’adozione di Clausole Standard approvate dalla Commissione Europea<p>\n<strong>7. Conferimento dei dati</strong><p>\nIl conferimento dei dati personali e relativi alla salute è strettamente necessario ai fini dello svolgimento delle attività di cui al punto 2.<p>\n<strong>8. Rifiuto di conferimento dei dati</strong><p>\nL’eventuale rifiuto da parte dell’interessato di conferire dati personali comporta l’impossibilità di adempiere alle attività di cui al punto 2.<p>\n<strong>9. Diritti dell'Interessato</strong><p>\nGli artt. 15, 16, 17, 18, 20 e 21 del Reg. UE conferiscono all’interessato l’esercizio di specifici diritti e nello specifico il diritto di: − ottenere, da parte del Titolare, la conferma che sia o meno in corso un trattamento di dati personali che la riguardano e in tal caso, ottenere l’accesso ai suoi dati, nonché, qualora i dati non siano raccolti presso l’Interessato, ricevere tutte le informazioni disponibili sulla loro origine; − conoscere le finalità del trattamento, le categorie dei dati in questione, i destinatari o le categorie di destinatari cui i dati sono stati o saranno comunicati, in particolare se destinatari di paesi terzi o organizzazioni internazionali, il periodo di conservazione dei dati previsto o i criteri utilizzati per determinare tale periodo; − chiedere al Titolare la rettifica, la cancellazione dei dati o la limitazione del trattamento dei dati che la riguardano; − opporsi al trattamento dei dati, fatto salvo il diritto del Titolare di valutare la Sua istanza, che potrebbe non essere accettata in caso di esistenza di motivi legittimi cogenti per procedere al trattamento che prevalgano sui Suoi interessi, diritti e libertà; − revocare il consenso in qualsiasi momento, senza pregiudicare la liceità del trattamento basato sul consenso prestato prima della revoca; − essere messo a conoscenza dell’esistenza di un processo decisionale automatizzato, compresa la profilazione; − ottenere la portabilità dei dati, nei casi previsti dalla legge; − proporre reclamo ad un’autorità di controllo (Garante Privacy). Le richieste vanno rivolte per iscritto al Titolare.<p>\nAcquisite le summenzionate informazioni fornitemi dal Titolare del trattamento ai sensi dell’art. 13 del Reg. UE, e consapevole, in particolare che il trattamento potrà riguardare dati relativi alla salute, presto il mio consenso per il trattamento dei dati, anche dati sanitari, necessari allo svolgimento delle operazioni indicate nell’informativa.\nN.B. Il presente consenso viene sottoscritto dall’interessato (quale genitore/tutore del minore) al momento del primo accesso presso Chiara Morelli e verrà ritenuto valido per tutti gli accessi successivi.\n",
+        "blocks": [
+          {
+            "type": "text_block",
+            "content": "\nGentile Signora/ Egregio Signore, CHIARA MORELLI (C.F. MRLCHR89M61D284W, P.IVA: 03983200985, PEC: morelli.chiara@arubapec.it, con studio in 25124 in Via Corfù, 71 Brescia, Studio Virtus Group) in qualità di titolare del trattamento dei dati personali (infra il “Titolare” ), intende fornirLe, nella Sua qualità di soggetto interessato (infra l’“Interessato”), le specifiche informazioni sul trattamento dei suoi dati personali e che si rende necessario con riferimento alle attività esercitate all’interno della struttura del Titolare, nelle sue diverse articolazioni, ai sensi dell’art. 13 del Regolamento (UE) 2016/679 del Parlamento europeo e del Consiglio del 27 aprile 2016 (“GDPR”) e della normativa europea e nazionale che lo integra e/o lo modifica, ivi compreso il Decreto Legislativo n. 196/2003, come modificato dal Decreto Legislativo n. 101/2018 (di seguito, “Codice Privacy”) (“Normativa Privacy Applicabile”), informandoLa di quanto segue:<p>\n<strong>1. Dati personali oggetto del trattamento</strong><p>\nIl Titolare tratterà i Suoi dati personali comuni, raccolti in occasione e nell’ambito della Sua richiesta di accedere alle prestazioni di prevenzione, cura, diagnosi, riabilitazione, assistenza o sedute chinesiologiche ipotozzate dal Titolare, tra cui rientrano, a titolo esemplificativo e non esaustivo, nome, cognome, numero di telefono mobile, indirizzo e-mail e, in generale, i Suoi dati di contatto (i “Dati Comuni”). Il Titolare tratterà anche i Suoi dati relativi a particolari categorie di cui all’art. 9 del GDPR, vale a dire dati idonei a rivelare, tra l’altro, l’origine razziale ed etnica, nonché dati genetici, dati biometrici intesi a identificare in modo univoco una persona fisica, dati relativi allo stato di salute e alla vita sessuale (i “Dati Particolari”) (i Dati Comuni e i Dati Particolari, di seguito, congiuntamente, i “Dati Personali”).<p>\n<strong>2. Finalità e base giuridica del trattamento</strong><p>\nI Suoi Dati Personali saranno trattati nell'ambito della normale attività del Titolare per le finalità e nel rispetto delle condizioni di liceità di seguito indicate: a) tutela della salute, prevenzione, cura, diagnosi, riabilitazione e assistenza o seduta chinesiologica; b) svolgimento di attività amministrative e certificatorie strettamente connesse al raggiungimento delle finalità sub a) sopra indicate, nonché alla gestione dei rapporti con l’interessato, nelle fasi di accettazione, prenotazione delle sedute chinesiologiche; c) svolgere compiti di igiene e sicurezza sui luoghi di lavoro e sicurezza e salute della popolazione, protezione civile, salvaguardia della vita e incolumità fisica; d) programmazione, gestione, controllo e valutazione delle sedute chinesiologiche, ivi incluse l’instaurazione, la gestione, la pianificazione e il controllo dei rapporti tra il soggetto interessati ed il Titolare; d) per adempiere ad obblighi previsti da leggi, regolamenti e dalla normativa comunitaria, ai sensi degli artt. 6, lett. c) e 9, par. 2, lett. b), del GDPR; e) per far valere o difendere un diritto in giudizio o in una fase propedeutica al giudizio, ai sensi dell’art. 9 par. 2, lett. f), del GDPR; f) per finalità ulteriori di ricerca scientifica correlata alle patologie relative alle sedute chinesiologiche, in particolare per studi osservazionali, ai sensi dell’art. 9 par. 2, lett. j), del GDPR e 110-bis comma 4 del D.lgs. 196/2003; informative più specifiche relative alle finalità di detti studi saranno rese di volta in volta; g) per consentire il ricontatto dell’Interessato tramite email, in relazione alle sedute chinesiologiche già intraprese, anche con finalità di prevenzione da attuarsi con cadenza periodica, nonché per attività di promozione e informazione di servizi analoghi a quelli già fruiti, ai sensi dell’art. 130 comma 4 del D.lgs. 196/2003. L’interessato può opporsi in ogni momento a questo trattamento, scrivendo al Titolare. I Dati Personali raccolti per le finalità di cui alla lettera a) che precede, saranno trattati da o sotto la responsabilità di un professionista soggetto al segreto professionale o da altri soggetti all’obbligo di segretezza conformemente al diritto dell’Unione Europea o del diritto nazionale o alle norme stabilite dagli organismi nazionali competenti, ai sensi dell’art. 9, par. 3, del GDPR. Per le finalità di cui alle lettere a), b), c), d), e), f) e g) non viene richiesto all’Interessato un consenso preventivo, in quanto il trattamento è necessario e legittimato da una delle basi giuridiche sopra indicate. I Dati Personali saranno altresì trattati, nell'ambito della normale attività del Titolare, e solo previo Suo specifico consenso, per le ulteriori finalità e nel rispetto delle condizioni di liceità di seguito indicate: h) per la comunicazione delle informazioni sul Suo stato di salute a soggetti terzi (es. familiari o conoscenti), indicati specificamente dall'Interessato, ove applicabile; i) per la comunicazione della Sua presenza presso lo Studio a soggetti terzi (es. familiari o conoscenti), indicati specificamente dall'Interessato, ove applicabile; j) per la comunicazione, in modalità cartacea e/o telematica, dei suoi Dati Personali a compagnie assicurative private, che ne facciano richiesta al fine di gestire pratiche relative a polizze assicurative da Lei stipulate. Solo in caso di Sua richiesta e conferimento del Suo espresso e distinto consenso, potranno essere oggetto di comunicazione anche dati garantiti da maggior tutela dell’anonimato (ad esempio, dati relativi a infezione da HIV, interruzione volontaria della gravidanza, etc.). In tal caso, i dati saranno trasmessi previa apposita cifratura ed esclusivamente tramite canali protetti da adeguate misure di sicurezza. Per le finalità di cui alle lettere h), i), j) sopra indicate, la condizione di liceità dei trattamenti è il Suo specifico consenso ex art. 6, par. 1, lett. a) e, ove applicabile, ex art. 9, par. 2, lett. a), del GDPR. Il consenso viene rilasciato al primo accesso alla nostra struttura, è facoltativo e l’eventuale rifiuto non avrà conseguenze sulla possibilità di usufruire delle prestazioni. Lei potrà comunque e in ogni momento revocare il Suo consenso senza dover fornire alcuna giustificazione contattando il Titolare ai recapiti indicati e ferma restando la liceità del trattamento basata sul consenso prestato prima della revoca. La informiamo che la presente informativa, unitamente al consenso da Lei rilasciato, hanno efficacia con riferimento alla pluralità di prestazioni erogate.\nIl trattamento dei dati è finalizzato unicamente alla corretta e completa esecuzione dell’incarico professionale connesso alle attività di valutazione chinesiologica, prevenzione, cura e riabilitazione svolte a tutela della sua salute da parte di CHIARA MORELLI.<p>\n<strong>3. Natura del conferimento dei dati e conseguenze dell'eventuale rifiuto</strong><p>\nIl conferimento dei dati richiesti per le finalità delle sedute chinesiologiche e quelle amministrative a queste strettamente correlate è indispensabile; il mancato conferimento potrebbe rendere impossibile all'interessato l'accesso alle prestazioni.<p>\n<strong>4. Modalità del trattamento</strong><p>\nIl trattamento dei Dati Personali avverrà – secondo i principi correttezza, liceità e trasparenza – tramite supporti e/o strumenti informatici, manuali e/o telematici, con logiche strettamente correlate alle finalità del trattamento e, comunque, garantendo la riservatezza e sicurezza dei dati stessi e il rispetto degli obblighi specifici sanciti dalla legge. La disponibilità, la gestione, l’accesso, la conservazione e la fruibilità dei dati è garantita dall’adozione di misure tecniche e organizzative per assicurare idonei livelli di sicurezza ai sensi degli artt. 25 e 32 del GDPR, nonché, in relazione alle specifiche finalità di trattamento individuate dalla normativa applicabile. Il trattamento è svolto ad opera di soggetti debitamente autorizzati e istruiti dal Titolare e in ottemperanza a quanto previsto dall’art. 29 GDPR. Il trattamento dei dati è realizzato per mezzo delle operazioni /complesso di operazioni indicate all’art. 2 del Reg. UE. Il trattamento dei dati è svolto dal Titolare e/o dagli incaricati del trattamento.<p> \n<strong>5. Conservazione dei dati personali</strong><p>\nI Dati Personali saranno conservati solo per il tempo necessario ai fini per cui sono raccolti, rispettando il principio di minimizzazione di cui all’articolo 5, comma 1, lettera c) del GDPR, nonché in esecuzione degli obblighi di legge cui è tenuto il Titolare. La revoca del consenso non pregiudica la liceità del trattamento dei dati effettuato dal Titolare prima della revoca. I dati potranno essere comunicati a soggetti pubblici o privati, nei limiti strettamente pertinenti all’espletamento dell’incarico conferito e nel rispetto, in ogni caso, del segreto professionale.<p>\n<strong>6. Ambito di comunicazione dei dati personali</strong><p>\nI Suoi Dati Personali non saranno oggetto di diffusione, fatta salva l'ipotesi in cui la comunicazione o diffusione sia richiesta, in conformità alla legge, da soggetti pubblici per finalità di difesa o di sicurezza o di prevenzione, accertamento o repressione di reati. Nello svolgimento della propria attività e per il perseguimento delle finalità, il Titolare potrebbe comunicare i Suoi Dati Personali, anche riguardanti il Suo stato di salute, a: - soggetti terzi, nell’ambito di un rapporto contrattuale o convenzionale con il Titolare, per consentire l’esecuzione di alcune prestazioni in favore dell’interessato da parte di soggetti esterni altamente qualificati per quella specifica prestazione, ovvero per effettuare analisi presso laboratori esterni, i quali agiranno tipicamente in qualità di responsabili del trattamento ex art. 28 del GDPR ovvero, in specifiche situazioni, in qualità di titolari o contitolari del trattamento; - enti sanitari e ospedalieri pubblici e privati, enti del servizio sanitario regionale e nazionale, organismi sanitari di controllo, organi della pubblica amministrazione, autorità di pubblica sicurezza, autorità giudiziaria ed enti assicurativi e altri soggetti, enti o autorità che agiscono nella loro qualità di titolari autonomi del trattamento, a cui sia obbligatorio comunicare i Dati Personali in forza di disposizioni di legge o di ordini delle autorità; - enti o strutture di ricovero o residenziali al fine di garantire la continuità delle cure una volta terminato il percorso ospedaliero, tramite percorsi post-dimissione, assistenza continuativa o attivazione di assistenza domiciliare, per le finalità di assistenza o di sedute chinesiologiche o sociale ovvero gestione dei sistemi e servizi sanitari o sociali che agiscono tipicamente nella loro qualità di titolari autonomi; - fornitori di servizi strettamente correlati e funzionali all’attività del Titolare i quali agiscono tipicamente in qualità di responsabili del trattamento ex art. 28 del GDPR, tra cui i fornitori di servizi IT per la gestione dell’infrastruttura tecnologica, dei sistemi informativi e delle reti di telecomunicazione; - società controllate e collegate del Titolare per finalità amministrative e contabili, intendendosi per tali quelle connesse all’attività di natura organizzativa, amministrativa, finanziaria e contabile, a prescindere dalla natura dei dati trattati. I dati personali possono dunque venire a conoscenza degli incaricati del trattamento e possono essere comunicati anche a familiari, laboratorio analisi, medici specialisti, farmacisti, aziende ospedaliere, case di cura private, fiscalisti, medici associati, fisioterapisti, collaboratori interni\\esterni, soggetti comunque operanti nel settore medico-fisioterapico e, in genere, a tutti quei soggetti cui la comunicazione sia necessaria per il corretto adempimento delle finalità indicate nel punto 2. Tali soggetti agiranno, di regola, quali autonomi Titolari delle rispettive operazioni di trattamento, salvo il caso in cui agiscano per conto del Titolare in qualità di Responsabili del trattamento e abbiano pertanto sottoscritto un apposito contratto che disciplini puntualmente i trattamenti loro affidati, ai sensi dell’art. 28 del GDPR. L’elenco completo ed aggiornato dei destinatari dei dati potrà essere richiesto al Titolare. I Suoi Dati Personali non saranno oggetto di trasferimento verso Paesi Terzi rispetto all’Unione Europea od organizzazioni internazionali. Qualora tale trasferimento dovesse rendersi necessario per perseguire le finalità sopra descritte, si rende noto che l’eventuale trattamento avverrà esclusivamente verso Paesi oggetto di una decisione di adeguatezza da parte della Commissione Europea o, in ogni caso, secondo le modalità consentite dagli artt. 46 e seguenti GDPR., quali ad esempio il consenso dell’interessato o l’adozione di Clausole Standard approvate dalla Commissione Europea<p>\n<strong>7. Conferimento dei dati</strong><p>\nIl conferimento dei dati personali e relativi alla salute è strettamente necessario ai fini dello svolgimento delle attività di cui al punto 2.<p>\n<strong>8. Rifiuto di conferimento dei dati</strong><p>\nL’eventuale rifiuto da parte dell’interessato di conferire dati personali comporta l’impossibilità di adempiere alle attività di cui al punto 2.<p>\n<strong>9. Diritti dell'Interessato</strong><p>\nGli artt. 15, 16, 17, 18, 20 e 21 del Reg. UE conferiscono all’interessato l’esercizio di specifici diritti e nello specifico il diritto di: − ottenere, da parte del Titolare, la conferma che sia o meno in corso un trattamento di dati personali che la riguardano e in tal caso, ottenere l’accesso ai suoi dati, nonché, qualora i dati non siano raccolti presso l’Interessato, ricevere tutte le informazioni disponibili sulla loro origine; − conoscere le finalità del trattamento, le categorie dei dati in questione, i destinatari o le categorie di destinatari cui i dati sono stati o saranno comunicati, in particolare se destinatari di paesi terzi o organizzazioni internazionali, il periodo di conservazione dei dati previsto o i criteri utilizzati per determinare tale periodo; − chiedere al Titolare la rettifica, la cancellazione dei dati o la limitazione del trattamento dei dati che la riguardano; − opporsi al trattamento dei dati, fatto salvo il diritto del Titolare di valutare la Sua istanza, che potrebbe non essere accettata in caso di esistenza di motivi legittimi cogenti per procedere al trattamento che prevalgano sui Suoi interessi, diritti e libertà; − revocare il consenso in qualsiasi momento, senza pregiudicare la liceità del trattamento basato sul consenso prestato prima della revoca; − essere messo a conoscenza dell’esistenza di un processo decisionale automatizzato, compresa la profilazione; − ottenere la portabilità dei dati, nei casi previsti dalla legge; − proporre reclamo ad un’autorità di controllo (Garante Privacy). Le richieste vanno rivolte per iscritto al Titolare.<p>\nAcquisite le summenzionate informazioni fornitemi dal Titolare del trattamento ai sensi dell’art. 13 del Reg. UE, e consapevole, in particolare che il trattamento potrà riguardare dati relativi alla salute, presto il mio consenso per il trattamento dei dati, anche dati sanitari, necessari allo svolgimento delle operazioni indicate nell’informativa.\nN.B. Il presente consenso viene sottoscritto dall’interessato (quale genitore/tutore del minore) al momento del primo accesso presso Chiara Morelli e verrà ritenuto valido per tutti gli accessi successivi.\n"
+          },
+          {
+            "type": "text_input",
+            "label": "Nome e Cognome",
+            "data_key": "patient.full_name"
+          },
+          {
+            "type": "signature",
+            "label": "Firma dell’interessato (o del genitore o del tutore in caso di minore):",
+            "data_key": "firma_1",
+            "validation": {
+              "required": true
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "17",
+      "name": "Hintime",
+      "sector": "speciali",
+      "area_id": "speciali",
+      "active": 1,
+      "config": {
+        "nome": "Hintime",
+        "firme": 1,
+        "etichette_firme": [
+          "Firma Utente"
+        ],
+        "testo_informativa": "<h3 style=\"text-align:center;\">CONTROINDICAZIONI per l'utilizzo di HINTIME EMS</h3>\n<p>\n    EMS riduce notevolmente il tempo da dedicare all'allenamento. È uno dei più efficaci metodi di\n    allenamento al mondo. Il prodotto deve essere utilizzato in conformità con le condizioni di salute\n    del corpo, si prega di consultarsi con un medico professionista per assicurarsi di non avere uno\n    dei seguenti problemi di salute.\n</p>\n<p>\n    <strong>Per preservare la propria salute, si raccomanda di non utilizzare questo prodotto in caso si\n    abbiano queste malattie o sintomi.</strong>\n</p>\n<p><strong>Cuore:</strong> Problemi cardiovascolari, problemi circolatori, ipertensione arteriosa</p>\n<p><strong>Pelle:</strong> Neurodermatite, psoriasi, pelle generalmente secca, ferite della pelle aperte, eczema, scottature ecc sotto o vicino agli elettrodi</p>\n<p><strong>Metabolismo:</strong> Diabete mellito, calcoli alla cistifellea o ai reni</p>\n<p><strong>Impianti:</strong> impianti metallici, piercing vicino o sotto gli elettrodi</p>\n<p><strong>Neurologia:</strong> Epilessia, Parkinson, sclerosi multipla, sclerosi amiotrofica laterale, paralisi spastica spinale, emicrania severa, disturbi dell'orientamento</p>\n<p><strong>Sanguinamento:</strong> Emofilia (tendenza all'eccessivo sanguinamento), disturbi severi della circolazione, sanguinamento, trombosi</p>\n<p><strong>Medicina interna:</strong> Tumore, cancro, operazioni negli ultimi 6 mesi, infarto, linfedema, infiammazione acuta</p>\n<p><strong>Gravidanza:</strong> tutte le donne in gravidanza e in allattamento</p>\n<p><strong>Ortopedia:</strong> Disturbi ortopedici, malattie che complicano le attività sportive, problemi reumatici, distrofia progressiva dei muscoli, tendinopatia (disturbi ai tendini), sindromi al disco o spinali, protesi al disco, fratture</p>\n<p><strong>Altro:</strong> dipendenza da alcool o droga, ansia dell'elettricità.</p>\n<br>\n<p>\n    Il cliente dichiara di avere preso piena visione delle controindicazioni qui riportate e di assumersi\n    ogni responsabilità a riguardo.\n</p>",
+        "blocks": [
+          {
+            "type": "text_block",
+            "content": "<h3 style=\"text-align:center;\">CONTROINDICAZIONI per l'utilizzo di HINTIME EMS</h3>\n<p>\n    EMS riduce notevolmente il tempo da dedicare all'allenamento. È uno dei più efficaci metodi di\n    allenamento al mondo. Il prodotto deve essere utilizzato in conformità con le condizioni di salute\n    del corpo, si prega di consultarsi con un medico professionista per assicurarsi di non avere uno\n    dei seguenti problemi di salute.\n</p>\n<p>\n    <strong>Per preservare la propria salute, si raccomanda di non utilizzare questo prodotto in caso si\n    abbiano queste malattie o sintomi.</strong>\n</p>\n<p><strong>Cuore:</strong> Problemi cardiovascolari, problemi circolatori, ipertensione arteriosa</p>\n<p><strong>Pelle:</strong> Neurodermatite, psoriasi, pelle generalmente secca, ferite della pelle aperte, eczema, scottature ecc sotto o vicino agli elettrodi</p>\n<p><strong>Metabolismo:</strong> Diabete mellito, calcoli alla cistifellea o ai reni</p>\n<p><strong>Impianti:</strong> impianti metallici, piercing vicino o sotto gli elettrodi</p>\n<p><strong>Neurologia:</strong> Epilessia, Parkinson, sclerosi multipla, sclerosi amiotrofica laterale, paralisi spastica spinale, emicrania severa, disturbi dell'orientamento</p>\n<p><strong>Sanguinamento:</strong> Emofilia (tendenza all'eccessivo sanguinamento), disturbi severi della circolazione, sanguinamento, trombosi</p>\n<p><strong>Medicina interna:</strong> Tumore, cancro, operazioni negli ultimi 6 mesi, infarto, linfedema, infiammazione acuta</p>\n<p><strong>Gravidanza:</strong> tutte le donne in gravidanza e in allattamento</p>\n<p><strong>Ortopedia:</strong> Disturbi ortopedici, malattie che complicano le attività sportive, problemi reumatici, distrofia progressiva dei muscoli, tendinopatia (disturbi ai tendini), sindromi al disco o spinali, protesi al disco, fratture</p>\n<p><strong>Altro:</strong> dipendenza da alcool o droga, ansia dell'elettricità.</p>\n<br>\n<p>\n    Il cliente dichiara di avere preso piena visione delle controindicazioni qui riportate e di assumersi\n    ogni responsabilità a riguardo.\n</p>"
+          },
+          {
+            "type": "text_input",
+            "label": "Nome e Cognome",
+            "data_key": "patient.full_name"
+          },
+          {
+            "type": "signature",
+            "label": "Firma Utente",
+            "data_key": "firma_1",
+            "validation": {
+              "required": true
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "18",
+      "name": "Dott.ssa Elisa Manara",
+      "sector": "Generale",
+      "area_id": "chinesiologia",
+      "active": 1,
+      "config": {
+        "disable_legacy_injection": true,
+        "ui": {
+          "title": "Modulo Informativa Privacy – Dott.ssa Elisa Manara",
+          "informativa_position": "top"
+        },
+        "testo_informativa": "\nTi informiamo che i dati che fornirai saranno trattati nel rispetto del D. Lgs. 30/06/2003 n. 196 (Codice in materia di protezione dei dati personali) e del Regolamento Europeo n. 679 del 2016 e successive autorizzazioni ed integrazioni.  \nTi informiamo del fatto che i dati che conferirai volontariamente verranno trattati anche con l’ausilio di sistemi elettronici.<p>\n\n1. FINALITÀ DEL TRATTAMENTO DEI DATI PERSONALI:<p>\n   a) Partecipazione all’attività.<p>\n\n2. NATURA DEI DATI TRATTATI E MODALITÀ DEL TRATTAMENTO:<p>\n   a) I dati personali trattati saranno esclusivamente i dati forniti dall’utente e/o derivanti dalle valutazioni e dall’attività personalizzata, strettamente necessari e pertinenti alle finalità di cui al punto 1.  <p>\n   b) Il trattamento dei dati personali conferiti è realizzato per mezzo delle operazioni e del complesso delle operazioni indicate all’art. 4 comma 2 Regolamento UE 2016/679.<p>\n\n3. TITOLARE DEL TRATTAMENTO:<p>\n   I dati personali raccolti saranno gestiti dal titolare del trattamento.<p>\n\n4. DIRITTI DELL’INTERESSATO:<p>\n   Si ricorda che in ogni momento potrai esercitare i diritti a te attribuiti di cui agli articoli 15 e ss. del GDPR.<p>\n ",
+        "blocks": [
+          {
+            "type": "inline_sentence",
+            "no_wrap": false,
+            "parts": [
+              {
+                "text": "Io sottoscritto/a "
+              },
+              {
+                "field": {
+                  "type": "text_input",
+                  "data_key": "patient.full_name",
+                  "placeholder": "",
+                  "validation": {
+                    "required": true
+                  }
+                }
+              },
+              {
+                "text": ", Nato a "
+              },
+              {
+                "field": {
+                  "type": "text_input",
+                  "data_key": "manara_luogo_nascita",
+                  "validation": {
+                    "required": true
+                  }
+                }
+              },
+              {
+                "text": " Il "
+              },
+              {
+                "field": {
+                  "type": "date",
+                  "data_key": "manara_data_nascita",
+                  "validation": {
+                    "required": true
+                  }
+                }
+              },
+              {
+                "text": ", Residente a "
+              },
+              {
+                "field": {
+                  "type": "text_input",
+                  "data_key": "manara_residenza",
+                  "validation": {
+                    "required": true
+                  }
+                }
+              },
+              {
+                "text": " Codice Fiscale: "
+              },
+              {
+                "field": {
+                  "type": "text_input",
+                  "data_key": "manara_codice_fiscale",
+                  "validation": {
+                    "required": false
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "html",
+            "html": "<div style='text-align:center; margin:18px 0 10px 0;'><div style='font-weight:900; font-size:18px; letter-spacing:0.5px;'>AUTORIZZAZIONE AL TRATTAMENTO DEI DATI</div><div style='margin-top:6px;'>Dichiaro di aver letto preventivamente l’informativa e autorizzo al trattamento dei miei dati personali per le finalità di cui al punto 1a.</div></div>"
+          },
+          {
+            "type": "choice",
+            "data_key": "manara_consenso_trattamento",
+            "hide_label": true,
+            "inline_options": true,
+            "align": "center",
+            "options": [
+              {
+                "label": "ACCONSENTO",
+                "value": "ACCONSENTO"
+              },
+              {
+                "label": "NON ACCONSENTO",
+                "value": "NON ACCONSENTO"
+              }
+            ],
+            "validation": {
+              "required": true
+            }
+          },
+          {
+            "type": "row",
+            "centered": true,
+            "children": [
+              {
+                "type": "text_input",
+                "label": "Luogo",
+                "data_key": "firma_luogo",
+                "validation": {
+                  "required": true
+                },
+                "width_px": 260
+              },
+              {
+                "type": "date",
+                "label": "Data",
+                "data_key": "firma_data",
+                "validation": {
+                  "required": true
+                },
+                "width_px": 220
+              }
+            ]
+          },
+          {
+            "type": "signature",
+            "label": "Firma",
+            "data_key": "firma_1",
+            "validation": {
+              "required": true
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "20",
+      "name": "Estetica Virtus",
+      "sector": "speciali",
+      "area_id": "speciali",
+      "active": 1,
+      "config": {
+        "nome": "Estetica Virtus",
+        "firme": 1,
+        "etichette_firme": [
+          "Firma del paziente"
+        ],
+        "testo_informativa": "<p><strong>Titolare del trattamento:</strong> Virtus Group s.r.l. – Nutrizione e terapia dello sport,\r\n    Via Corfù 71 e via Montello 79, 25124 Brescia (BS), tel. 0304096895 – 3518899843,\r\n    e‑mail: virtusgroup2023@gmail.com.</p>\r\n<p>I dati personali raccolti sono utilizzati esclusivamente per la gestione della prenotazione,\r\n    l’erogazione dei trattamenti estetici e gli obblighi amministrativi e contabili. La base\r\n    giuridica del trattamento è l’esecuzione del contratto e il consenso espresso dall’interessato.</p>\r\n<p>I dati saranno trattati su supporto cartaceo e informatico nel rispetto dei principi di\r\n    liceità, correttezza, trasparenza e riservatezza. Non saranno diffusi; potranno essere comunicati\r\n    solo a personale autorizzato o a consulenti professionali per adempimenti di legge.</p>\r\n<p>I dati saranno conservati per il tempo necessario all’erogazione del servizio e per gli\r\n    obblighi legali di conservazione.</p>\r\n<p>L’interessato può esercitare i diritti di accesso, rettifica, cancellazione, limitazione e\r\n    opposizione al trattamento, revocare il consenso e proporre reclamo al Garante. Per tali istanze\r\n    è possibile contattare il titolare ai recapiti sopra indicati.</p>\r\n<p>Eventuali fotografie scattate durante i trattamenti (per documentazione o promozione) saranno\r\n    raccolte e utilizzate solo previo consenso specifico e distinto dell’interessato.</p>",
+        "blocks": [
+          {
+            "type": "text_block",
+            "content": "\n<p><strong>Titolare del trattamento:</strong> Virtus Group s.r.l. – Nutrizione e terapia dello sport,\n    Via Corfù 71 e via Montello 79, 25124 Brescia (BS), tel. 0304096895 – 3518899843,\n    e‑mail: virtusgroup2023@gmail.com.</p>\n<p>I dati personali raccolti sono utilizzati esclusivamente per la gestione della prenotazione,\n    l’erogazione dei trattamenti estetici e gli obblighi amministrativi e contabili. La base\n    giuridica del trattamento è l’esecuzione del contratto e il consenso espresso dall’interessato.</p>\n<p>I dati saranno trattati su supporto cartaceo e informatico nel rispetto dei principi di\n    liceità, correttezza, trasparenza e riservatezza. Non saranno diffusi; potranno essere comunicati\n    solo a personale autorizzato o a consulenti professionali per adempimenti di legge.</p>\n<p>I dati saranno conservati per il tempo necessario all’erogazione del servizio e per gli\n    obblighi legali di conservazione.</p>\n<p>L’interessato può esercitare i diritti di accesso, rettifica, cancellazione, limitazione e\n    opposizione al trattamento, revocare il consenso e proporre reclamo al Garante. Per tali istanze\n    è possibile contattare il titolare ai recapiti sopra indicati.</p>\n<p>Eventuali fotografie scattate durante i trattamenti (per documentazione o promozione) saranno\n    raccolte e utilizzate solo previo consenso specifico e distinto dell’interessato.</p>\n",
+            "id": "b_f8be8b643a6eb_1772573480788"
+          },
+          {
+            "type": "text_input",
+            "label": "Nome e Cognome",
+            "data_key": "patient.full_name",
+            "id": "b_c732129894b76_1772573480788"
+          },
+          {
+            "type": "signature",
+            "label": "Firma",
+            "data_key": "firma_1",
+            "validation": {
+              "required": true
+            },
+            "id": "b_1046aa81657b1_1772573480788",
+            "field": "firma_1"
+          },
+          {
+            "id": "b_371fbe6428ec3_1772573584059",
+            "type": "text_input",
+            "data_key": "firma_luogo",
+            "label": "Luogo",
+            "validation": {
+              "required": true
+            },
+            "field": "firma_luogo"
+          },
+          {
+            "id": "b_a849860f3eb798_1772574261426",
+            "type": "choice",
+            "data_key": "consenso_1",
+            "label": "Consenso 1",
+            "options": [
+              {
+                "value": "acconsento",
+                "label": "Acconsento"
+              },
+              {
+                "value": "non_acconsento",
+                "label": "Non acconsento"
+              }
+            ],
+            "validation": {
+              "required": true
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "21",
+      "name": "Dott. Giacomo Micucci",
+      "sector": "fisioterapia",
+      "area_id": "fisioterapia",
+      "active": 1,
+      "config": {
+        "nome": "Dott. Giacomo Micucci",
+        "firme": 1,
+        "etichette_firme": [
+          "Firma del paziente"
+        ],
+        "testo_informativa": "<h3>INFORMATIVA SUL TRATTAMENTO DEI DATI PERSONALI</h3>\n<p>ai sensi dell’art. 13 del Regolamento UE 2016/679 (GDPR)</p>\n<p>Il/La sottoscritto/a <strong>Micucci Giacomo (FISIOTERAPISTA)</strong>, con studio in via Corfù 71, C.F. MCCGCM95A13E884T, P. IVA 04448240988, e-mail: mrjackmicu@gmail.com, PEC: giacomo.micucci@fnofi.pec.it, Telefono 3387412779, in qualità di Titolare del trattamento, informa il paziente che i dati personali forniti saranno trattati nel rispetto della normativa vigente in materia di protezione dei dati personali.</p>\n<p><strong>1. TIPOLOGIA DI DATI TRATTATI</strong><br>Potranno essere trattati:</p>\n<ul>\n<li>dati anagrafici e di contatto del paziente;</li>\n<li>dati amministrativi e fiscali;</li>\n<li>dati relativi alla salute, anamnestici e clinici, referti, certificazioni, prescrizioni, immagini o altra documentazione sanitaria eventualmente necessaria ai fini della valutazione e del trattamento fisioterapico;</li>\n<li>dati del genitore/tutore, ove il paziente sia minorenne o sottoposto a tutela.</li>\n</ul>\n<p><strong>2. FINALITÀ DEL TRATTAMENTO</strong><br>I dati personali saranno trattati per le seguenti finalità:</p>\n<ul>\n<li>prenotazione, gestione e conferma degli appuntamenti;</li>\n<li>valutazione fisioterapica, prevenzione, diagnosi funzionale, riabilitazione, trattamento terapeutico e gestione del rapporto di cura;</li>\n<li>tenuta della documentazione sanitaria e professionale relativa alle prestazioni erogate;</li>\n<li>adempimento di obblighi amministrativi, contabili e fiscali;</li>\n<li>eventuale tutela dei diritti del Titolare in sede giudiziale o stragiudiziale.</li>\n</ul>\n<p><strong>3. BASE GIURIDICA DEL TRATTAMENTO</strong><br>Il trattamento si fonda:</p>\n<ul>\n<li>sull’esecuzione del rapporto professionale richiesto dal paziente;</li>\n<li>sull’adempimento di obblighi di legge;</li>\n<li>per i dati relativi alla salute, sulla necessità del trattamento per finalità di diagnosi, assistenza o terapia sanitaria effettuate da un professionista sanitario soggetto al segreto professionale.</li>\n</ul>\n<p><strong>4. MODALITÀ DEL TRATTAMENTO</strong><br>Il trattamento sarà effettuato con strumenti cartacei e/o elettronici, secondo principi di liceità, correttezza, trasparenza, pertinenza e minimizzazione, adottando misure tecniche e organizzative adeguate a garantire la riservatezza e la sicurezza dei dati.</p>\n<p><strong>5. NATURA DEL CONFERIMENTO DEI DATI</strong><br>Il conferimento dei dati necessari alle finalità di cura, amministrative e fiscali è necessario. L’eventuale rifiuto di fornire tali dati può rendere impossibile l’erogazione della prestazione professionale o il corretto adempimento degli obblighi di legge.</p>\n<p><strong>6. DESTINATARI O CATEGORIE DI DESTINATARI DEI DATI</strong><br>I dati potranno essere comunicati, nei limiti strettamente pertinenti alle finalità sopra indicate, a:</p>\n<ul>\n<li>collaboratori e soggetti autorizzati al trattamento;</li>\n<li>consulente fiscale/contabile;</li>\n<li>fornitori di servizi informatici, gestionali, cloud, posta elettronica o conservazione documentale, nominati ove necessario responsabili del trattamento;</li>\n<li>istituti bancari per la gestione dei pagamenti;</li>\n<li>enti pubblici o autorità, quando previsto dalla legge;</li>\n<li>altri professionisti sanitari o medici curanti, solo nei casi consentiti e/o su richiesta o autorizzazione dell’interessato, quando ciò sia utile alla continuità assistenziale.</li>\n</ul>\n<p>I dati relativi alla salute non saranno diffusi.</p>\n<p><strong>7. PERIODO DI CONSERVAZIONE</strong><br>I dati saranno conservati per il tempo strettamente necessario al perseguimento delle finalità per cui sono raccolti e, successivamente, per il periodo richiesto da obblighi di legge, fiscali, civilistici o per la tutela dei diritti del Titolare.</p>\n<ul>\n<li>documentazione amministrativa e fiscale: 10 anni dalla data del documento contabile;</li>\n<li>documentazione sanitaria/professionale: 10 anni dalla data dell’ultima prestazione, salvo eventuali termini più lunghi previsti dalla legge o necessari per la tutela dei diritti del Titolare.</li>\n</ul>\n<p><strong>8. DIRITTI DELL’INTERESSATO</strong><br>L’interessato può esercitare i diritti previsti dagli artt. 15 e seguenti del GDPR, tra cui:</p>\n<ul>\n<li>accesso ai dati personali;</li>\n<li>rettifica dei dati inesatti o integrazione di quelli incompleti;</li>\n<li>cancellazione, nei casi previsti dalla legge;</li>\n<li>limitazione del trattamento, nei casi previsti;</li>\n<li>opposizione, quando applicabile;</li>\n<li>portabilità dei dati, quando applicabile;</li>\n<li>proporre reclamo al Garante per la protezione dei dati personali.</li>\n</ul>\n<p>Le richieste possono essere inviate al Titolare ai recapiti sopra indicati.</p>\n<p><strong>9. TRASFERIMENTO DATI EXTRA UE</strong><br>I dati non saranno trasferiti fuori dallo Spazio Economico Europeo.</p>\n<p><strong>10. MINORI O SOGGETTI SOTTOPOSTI A TUTELA</strong><br>Nel caso di paziente minorenne o soggetto sottoposto a tutela/amministrazione di sostegno, i dati potranno essere raccolti e trattati anche tramite il genitore, tutore o soggetto legittimato.</p>\n<p><strong>DICHIARAZIONE DI PRESA VISIONE</strong></p>\n<p>Il/La sottoscritto/a dichiara di aver ricevuto e letto l’informativa sul trattamento dei dati personali ai sensi dell’art. 13 del Regolamento UE 2016/679.</p>",
+        "blocks": [
+          {
+            "type": "text_block",
+            "content": "<h3>INFORMATIVA SUL TRATTAMENTO DEI DATI PERSONALI</h3>\n<p>ai sensi dell’art. 13 del Regolamento UE 2016/679 (GDPR)</p>\n<p>Il/La sottoscritto/a <strong>Micucci Giacomo (FISIOTERAPISTA)</strong>, con studio in via Corfù 71, C.F. MCCGCM95A13E884T, P. IVA 04448240988, e-mail: mrjackmicu@gmail.com, PEC: giacomo.micucci@fnofi.pec.it, Telefono 3387412779, in qualità di Titolare del trattamento, informa il paziente che i dati personali forniti saranno trattati nel rispetto della normativa vigente in materia di protezione dei dati personali.</p>\n<p><strong>1. TIPOLOGIA DI DATI TRATTATI</strong><br>Potranno essere trattati:</p>\n<ul>\n<li>dati anagrafici e di contatto del paziente;</li>\n<li>dati amministrativi e fiscali;</li>\n<li>dati relativi alla salute, anamnestici e clinici, referti, certificazioni, prescrizioni, immagini o altra documentazione sanitaria eventualmente necessaria ai fini della valutazione e del trattamento fisioterapico;</li>\n<li>dati del genitore/tutore, ove il paziente sia minorenne o sottoposto a tutela.</li>\n</ul>\n<p><strong>2. FINALITÀ DEL TRATTAMENTO</strong><br>I dati personali saranno trattati per le seguenti finalità:</p>\n<ul>\n<li>prenotazione, gestione e conferma degli appuntamenti;</li>\n<li>valutazione fisioterapica, prevenzione, diagnosi funzionale, riabilitazione, trattamento terapeutico e gestione del rapporto di cura;</li>\n<li>tenuta della documentazione sanitaria e professionale relativa alle prestazioni erogate;</li>\n<li>adempimento di obblighi amministrativi, contabili e fiscali;</li>\n<li>eventuale tutela dei diritti del Titolare in sede giudiziale o stragiudiziale.</li>\n</ul>\n<p><strong>3. BASE GIURIDICA DEL TRATTAMENTO</strong><br>Il trattamento si fonda:</p>\n<ul>\n<li>sull’esecuzione del rapporto professionale richiesto dal paziente;</li>\n<li>sull’adempimento di obblighi di legge;</li>\n<li>per i dati relativi alla salute, sulla necessità del trattamento per finalità di diagnosi, assistenza o terapia sanitaria effettuate da un professionista sanitario soggetto al segreto professionale.</li>\n</ul>\n<p><strong>4. MODALITÀ DEL TRATTAMENTO</strong><br>Il trattamento sarà effettuato con strumenti cartacei e/o elettronici, secondo principi di liceità, correttezza, trasparenza, pertinenza e minimizzazione, adottando misure tecniche e organizzative adeguate a garantire la riservatezza e la sicurezza dei dati.</p>\n<p><strong>5. NATURA DEL CONFERIMENTO DEI DATI</strong><br>Il conferimento dei dati necessari alle finalità di cura, amministrative e fiscali è necessario. L’eventuale rifiuto di fornire tali dati può rendere impossibile l’erogazione della prestazione professionale o il corretto adempimento degli obblighi di legge.</p>\n<p><strong>6. DESTINATARI O CATEGORIE DI DESTINATARI DEI DATI</strong><br>I dati potranno essere comunicati, nei limiti strettamente pertinenti alle finalità sopra indicate, a:</p>\n<ul>\n<li>collaboratori e soggetti autorizzati al trattamento;</li>\n<li>consulente fiscale/contabile;</li>\n<li>fornitori di servizi informatici, gestionali, cloud, posta elettronica o conservazione documentale, nominati ove necessario responsabili del trattamento;</li>\n<li>istituti bancari per la gestione dei pagamenti;</li>\n<li>enti pubblici o autorità, quando previsto dalla legge;</li>\n<li>altri professionisti sanitari o medici curanti, solo nei casi consentiti e/o su richiesta o autorizzazione dell’interessato, quando ciò sia utile alla continuità assistenziale.</li>\n</ul>\n<p>I dati relativi alla salute non saranno diffusi.</p>\n<p><strong>7. PERIODO DI CONSERVAZIONE</strong><br>I dati saranno conservati per il tempo strettamente necessario al perseguimento delle finalità per cui sono raccolti e, successivamente, per il periodo richiesto da obblighi di legge, fiscali, civilistici o per la tutela dei diritti del Titolare.</p>\n<ul>\n<li>documentazione amministrativa e fiscale: 10 anni dalla data del documento contabile;</li>\n<li>documentazione sanitaria/professionale: 10 anni dalla data dell’ultima prestazione, salvo eventuali termini più lunghi previsti dalla legge o necessari per la tutela dei diritti del Titolare.</li>\n</ul>\n<p><strong>8. DIRITTI DELL’INTERESSATO</strong><br>L’interessato può esercitare i diritti previsti dagli artt. 15 e seguenti del GDPR, tra cui:</p>\n<ul>\n<li>accesso ai dati personali;</li>\n<li>rettifica dei dati inesatti o integrazione di quelli incompleti;</li>\n<li>cancellazione, nei casi previsti dalla legge;</li>\n<li>limitazione del trattamento, nei casi previsti;</li>\n<li>opposizione, quando applicabile;</li>\n<li>portabilità dei dati, quando applicabile;</li>\n<li>proporre reclamo al Garante per la protezione dei dati personali.</li>\n</ul>\n<p>Le richieste possono essere inviate al Titolare ai recapiti sopra indicati.</p>\n<p><strong>9. TRASFERIMENTO DATI EXTRA UE</strong><br>I dati non saranno trasferiti fuori dallo Spazio Economico Europeo.</p>\n<p><strong>10. MINORI O SOGGETTI SOTTOPOSTI A TUTELA</strong><br>Nel caso di paziente minorenne o soggetto sottoposto a tutela/amministrazione di sostegno, i dati potranno essere raccolti e trattati anche tramite il genitore, tutore o soggetto legittimato.</p>\n<p><strong>DICHIARAZIONE DI PRESA VISIONE</strong></p>\n<p>Il/La sottoscritto/a dichiara di aver ricevuto e letto l’informativa sul trattamento dei dati personali ai sensi dell’art. 13 del Regolamento UE 2016/679.</p>"
+          },
+          {
+            "type": "text_input",
+            "label": "Nome e Cognome",
+            "data_key": "patient.full_name",
+            "validation": {
+              "required": true
+            }
+          },
+          {
+            "type": "text_input",
+            "label": "Nato/a a",
+            "data_key": "patient.birth_place",
+            "validation": {
+              "required": true
+            }
+          },
+          {
+            "type": "date",
+            "label": "Il",
+            "data_key": "patient.birth_date",
+            "validation": {
+              "required": true
+            }
+          },
+          {
+            "type": "text_input",
+            "label": "Residente in",
+            "data_key": "patient.residence",
+            "validation": {
+              "required": true
+            }
+          },
+          {
+            "type": "text_input",
+            "label": "Codice fiscale",
+            "data_key": "patient.tax_code",
+            "validation": {
+              "required": true
+            }
+          },
+          {
+            "type": "text_input",
+            "label": "Luogo",
+            "data_key": "firma_luogo",
+            "validation": {
+              "required": true
+            }
+          },
+          {
+            "type": "date",
+            "label": "Data",
+            "data_key": "firma_data",
+            "validation": {
+              "required": true
+            }
+          },
+          {
+            "type": "signature",
+            "label": "Firma del paziente",
+            "data_key": "firma_1",
+            "validation": {
+              "required": true
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "22",
+      "name": "Regolamento Pacchetti Lezioni (Corsi)",
+      "sector": "Corsi",
+      "area_id": "speciali",
+      "active": 1,
+      "config": {
+        "testo_informativa": "<p>Virtus Group Srl precisa che i pacchetti sottoscritti per lezioni di Pilates, Ems e Personal Trainer sono soggetti a validità sia in termini di numero di lezioni (10, 20, 30 etc) sia in termini di tempo (45 gg, 90 gg etc). Tali limitazioni vengono espressamente chiarite all’atto della sottoscrizione.</p>\r\n<p>È evidente che, per permettere una giusta organizzazione delle lezioni, è necessario comunicare l’eventuale assenza al corso frequentato almeno 12 ore prima dell’orario di svolgimento.</p>\r\n<p>Resta inteso che, salvo casi di evidente forza maggiore, le lezioni non disdettate nei termini sopra citati saranno conteggiate come realmente effettuate.</p>",
+        "blocks": [
+          {
+            "id": "b_deb71d4a565ac_1772576030646",
+            "type": "row",
+            "children": [
+              {
+                "id": "b_167008e586ca1_1772576030646",
+                "type": "signature",
+                "data_key": "firma_virtus",
+                "label": "Firma Virtus Group Srl (opzionale)",
+                "validation": {
+                  "required": false
+                }
+              },
+              {
+                "id": "b_8763f31e6a48d8_1772576030646",
+                "type": "signature",
+                "data_key": "firma_presa_visione",
+                "label": "Firma (Per conoscenza / Presa visione)",
+                "validation": {
+                  "required": true
+                }
+              }
+            ]
+          },
+          {
+            "id": "b_2b7956a91561a8_1772576030646",
+            "type": "row",
+            "children": [
+              {
+                "id": "b_4d8ef24b133d28_1772576030646",
+                "type": "text_input",
+                "data_key": "luogo",
+                "label": "Luogo",
+                "validation": {
+                  "required": true
+                }
+              },
+              {
+                "id": "b_b48312e8e0ce4_1772576030646",
+                "type": "date",
+                "data_key": "data",
+                "label": "Data",
+                "subtype": "date",
+                "validation": {
+                  "required": true
+                }
+              }
+            ]
+          },
+          {
+            "id": "b_d86e60826bf81_1772639889826",
+            "type": "html",
+            "content": "<p>Testo...</p>"
+          },
+          {
+            "id": "b_d0ab43e6086da8_1772576269179",
+            "type": "html",
+            "content": "TESTO TEST",
+            "html": "TESTO TEST"
+          },
+          {
+            "id": "b_3409dff0669288_1772607484149",
+            "type": "text_input",
+            "data_key": "campo_testo",
+            "label": "Campo testo",
+            "validation": {
+              "required": false
+            }
+          }
+        ],
+        "disable_legacy_injection": true,
+        "ui": {
+          "title": "Regolamento Pacchetti Lezioni"
+        }
+      }
+    }
+  ]
+}

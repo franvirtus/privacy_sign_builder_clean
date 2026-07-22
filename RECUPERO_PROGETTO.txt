@@ -1,0 +1,21 @@
+PROGETTO VIRTUS PRIVACY RECUPERATO
+
+Origine:
+- base completa estratta dall'archivio 7z caricato in chat
+- overlay applicato con i file finali della patch Virtus v7 (main.dart + pubspec.yaml)
+- AndroidManifest.xml corretto con permessi INTERNET e ACCESS_NETWORK_STATE
+- rimosso GeneratedPluginRegistrant.java dal vecchio embedding Android v1
+- rimossi file macchina-specifici e cartelle build/cache (.dart_tool, build, local.properties)
+
+Prima build sul tuo PC:
+1) apri il progetto in C:\Virtusirtus_privacy (o dove preferisci)
+2) esegui:
+   flutter clean
+   flutter pub get
+   flutter run
+3) per la release:
+   flutter build apk --release
+
+Nota:
+- questo archivio contiene il progetto sorgente ricostruito
+- non è stato compilato qui, quindi la prova finale va fatta sul tuo PC

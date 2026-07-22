@@ -1,0 +1,40 @@
+name: virtus_privacy
+description: Virtus Privacy (APK)
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_html: ^3.0.0
+  signature: ^6.3.0
+  pdf: ^3.11.3
+  path_provider: ^2.1.5
+  open_filex: ^4.7.0
+  mailer: ^7.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/modules.json
+    - assets/logo.png
+    - assets/fonts/NotoSans-Regular.ttf
+    - assets/fonts/NotoSans-Bold.ttf
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: assets/logo.png
+  adaptive_icon_background: '#FFFFFF'
+  adaptive_icon_foreground: assets/logo.png
