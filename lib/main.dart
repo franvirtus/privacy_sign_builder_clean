@@ -7,8 +7,6 @@ import 'package:flutter/services.dart';
 import 'package:flutter_html/flutter_html.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:open_filex/open_filex.dart';
-import 'package:mailer/mailer.dart';
-import 'package:mailer/smtp_server.dart';
 import 'package:pdf/widgets.dart' as pw;
 import 'package:pdf/pdf.dart';
 import 'package:signature/signature.dart';
@@ -16,23 +14,6 @@ import 'package:signature/signature.dart';
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(const VirtusPrivacyApp());
-}
-
-class AppMailConfig {
-  static const String senderName = String.fromEnvironment(
-    'APP_MAIL_SENDER_NAME',
-    defaultValue: 'Virtus Group s.r.l.',
-  );
-
-  static const String username = String.fromEnvironment(
-    'APP_MAIL_USERNAME',
-    defaultValue: '',
-  );
-
-  static const String appPassword = String.fromEnvironment(
-    'APP_MAIL_PASSWORD',
-    defaultValue: '',
-  );
 }
 
 class AppAdminConfig {
@@ -194,16 +175,6 @@ class ModulesRepository {
     await _writeLocalJson(assetJson, dirty: false, bundledHash: assetHash);
   }
 
-  static Future<bool> isEmailEnabled() async {
-    final json = await loadJson();
-    return (json['email_enabled'] ?? 0).toString() == '1';
-  }
-
-  static Future<void> setEmailEnabled(bool value) async {
-    final json = await loadJson();
-    json['email_enabled'] = value ? 1 : 0;
-    await saveJson(json);
-  }
 }
 
 class VirtusPrivacyApp extends StatelessWidget {
@@ -1870,88 +1841,7 @@ class SaveCompletedPage extends StatefulWidget {
 }
 
 class _SaveCompletedPageState extends State<SaveCompletedPage> {
-  final TextEditingController _emailCtrl = TextEditingController();
-  bool _sending = false;
   bool _opening = false;
-  bool _emailFeatureLoading = true;
-  bool _emailFeatureEnabled = false;
-
-  @override
-  void initState() {
-    super.initState();
-    _loadEmailFeatureFlag();
-  }
-
-  Future<void> _loadEmailFeatureFlag() async {
-    final enabled = await ModulesRepository.isEmailEnabled();
-    if (!mounted) return;
-    setState(() {
-      _emailFeatureEnabled = enabled;
-      _emailFeatureLoading = false;
-    });
-  }
-
-  @override
-  void dispose() {
-    _emailCtrl.dispose();
-    super.dispose();
-  }
-
-  Future<void> _sendEmail() async {
-    final email = _emailCtrl.text.trim();
-    if (email.isEmpty || !email.contains('@')) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Inserisci un indirizzo email valido.')),
-      );
-      return;
-    }
-
-    if (AppMailConfig.username.isEmpty || AppMailConfig.appPassword.isEmpty) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Configurazione email mancante.'),
-          duration: Duration(seconds: 4),
-        ),
-      );
-      return;
-    }
-
-    setState(() => _sending = true);
-    try {
-      final smtpServer = gmail(
-        AppMailConfig.username,
-        AppMailConfig.appPassword,
-      );
-
-      final message = Message()
-        ..from = Address(AppMailConfig.username)
-        ..recipients.add(email)
-        ..subject = 'Copia modulo privacy'
-        ..text = 'In allegato trovi la copia del modulo privacy firmato.'
-        ..attachments = [FileAttachment(widget.pdfFile)];
-
-      await send(message, smtpServer);
-
-      if (!mounted) return;
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Email inviata con successo.')),
-      );
-    } catch (e) {
-      if (!mounted) return;
-      final msg = e.toString().toLowerCase();
-      final friendly = msg.contains('unsolicited') || msg.contains('5.7.1')
-          ? 'Gmail ha bloccato il messaggio come possibile spam. Controlla mittente, password app e prova con una nuova app password.'
-          : 'Invio email fallito: $e';
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text(friendly),
-          duration: const Duration(seconds: 6),
-        ),
-      );
-    } finally {
-      if (mounted) setState(() => _sending = false);
-    }
-  }
 
   Future<void> _openPdf() async {
     setState(() => _opening = true);
@@ -2008,39 +1898,6 @@ class _SaveCompletedPageState extends State<SaveCompletedPage> {
                         fontWeight: FontWeight.w700,
                       ),
                     ),
-                    if (!_emailFeatureLoading && _emailFeatureEnabled) ...[
-                      const SizedBox(height: 28),
-                      const Text(
-                        'Se desideri riceverne una copia via email, inserisci il tuo indirizzo:',
-                        textAlign: TextAlign.center,
-                        style: TextStyle(fontSize: 16),
-                      ),
-                      const SizedBox(height: 18),
-                      TextField(
-                        controller: _emailCtrl,
-                        keyboardType: TextInputType.emailAddress,
-                        decoration: const InputDecoration(
-                          border: OutlineInputBorder(),
-                          hintText: 'Inserisci email...',
-                        ),
-                      ),
-                      const SizedBox(height: 24),
-                      SizedBox(
-                        width: 260,
-                        child: FilledButton(
-                          onPressed: _sending ? null : _sendEmail,
-                          style: FilledButton.styleFrom(
-                            backgroundColor: const Color(0xFF4CAF50),
-                            foregroundColor: Colors.white,
-                            padding: const EdgeInsets.symmetric(vertical: 18),
-                          ),
-                          child: Text(
-                            _sending ? 'Invio in corso...' : 'Invia PDF via mail',
-                            style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w700),
-                          ),
-                        ),
-                      ),
-                    ],
                     const SizedBox(height: 12),
                     SizedBox(
                       width: 260,
@@ -2089,14 +1946,6 @@ class _AdminPageState extends State<AdminPage> {
   Map<String, dynamic>? _data;
   bool _loading = true;
   bool _saving = false;
-
-  bool get _emailEnabled => (_data?['email_enabled'] ?? 0).toString() == '1';
-
-  Future<void> _setEmailEnabled(bool value) async {
-    _data!['email_enabled'] = value ? 1 : 0;
-    setState(() {});
-    await _persist();
-  }
 
   List<Map<String, dynamic>> get _areas => ((_data?['areas'] as List?) ?? const [])
       .map((e) => (e as Map).cast<String, dynamic>())
@@ -2716,32 +2565,6 @@ class _AdminPageState extends State<AdminPage> {
               : ListView(
                   padding: const EdgeInsets.all(16),
                   children: [
-                    Card(
-                      child: Padding(
-                        padding: const EdgeInsets.all(12),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            const Text(
-                              'Impostazioni',
-                              style: TextStyle(fontSize: 18, fontWeight: FontWeight.w700),
-                            ),
-                            const SizedBox(height: 4),
-                            SwitchListTile(
-                              contentPadding: EdgeInsets.zero,
-                              title: const Text('Invio PDF via email'),
-                              subtitle: const Text(
-                                'Se disattivo, il pulsante "Invia PDF via mail" è nascosto agli operatori '
-                                'e visibile solo abilitandolo qui.',
-                              ),
-                              value: _emailEnabled,
-                              onChanged: _saving ? null : _setEmailEnabled,
-                            ),
-                          ],
-                        ),
-                      ),
-                    ),
-                    const SizedBox(height: 12),
                     Card(
                       child: Padding(
                         padding: const EdgeInsets.all(12),

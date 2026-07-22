@@ -24,10 +24,7 @@ jobs:
       - name: Build release APK
         run: |
           flutter build apk --release \
-            --dart-define=APP_ADMIN_PASSWORD=${{ secrets.APP_ADMIN_PASSWORD }} \
-            --dart-define=APP_MAIL_USERNAME=${{ secrets.APP_MAIL_USERNAME }} \
-            --dart-define=APP_MAIL_PASSWORD=${{ secrets.APP_MAIL_PASSWORD }} \
-            --dart-define=APP_MAIL_SENDER_NAME=${{ secrets.APP_MAIL_SENDER_NAME || 'Virtus Group s.r.l.' }}
+            --dart-define=APP_ADMIN_PASSWORD=${{ secrets.APP_ADMIN_PASSWORD }}
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
