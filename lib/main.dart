@@ -193,6 +193,17 @@ class ModulesRepository {
     final assetHash = _jsonFingerprint(assetJson);
     await _writeLocalJson(assetJson, dirty: false, bundledHash: assetHash);
   }
+
+  static Future<bool> isEmailEnabled() async {
+    final json = await loadJson();
+    return (json['email_enabled'] ?? 0).toString() == '1';
+  }
+
+  static Future<void> setEmailEnabled(bool value) async {
+    final json = await loadJson();
+    json['email_enabled'] = value ? 1 : 0;
+    await saveJson(json);
+  }
 }
 
 class VirtusPrivacyApp extends StatelessWidget {
@@ -1862,6 +1873,23 @@ class _SaveCompletedPageState extends State<SaveCompletedPage> {
   final TextEditingController _emailCtrl = TextEditingController();
   bool _sending = false;
   bool _opening = false;
+  bool _emailFeatureLoading = true;
+  bool _emailFeatureEnabled = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadEmailFeatureFlag();
+  }
+
+  Future<void> _loadEmailFeatureFlag() async {
+    final enabled = await ModulesRepository.isEmailEnabled();
+    if (!mounted) return;
+    setState(() {
+      _emailFeatureEnabled = enabled;
+      _emailFeatureLoading = false;
+    });
+  }
 
   @override
   void dispose() {
@@ -1980,37 +2008,39 @@ class _SaveCompletedPageState extends State<SaveCompletedPage> {
                         fontWeight: FontWeight.w700,
                       ),
                     ),
-                    const SizedBox(height: 28),
-                    const Text(
-                      'Se desideri riceverne una copia via email, inserisci il tuo indirizzo:',
-                      textAlign: TextAlign.center,
-                      style: TextStyle(fontSize: 16),
-                    ),
-                    const SizedBox(height: 18),
-                    TextField(
-                      controller: _emailCtrl,
-                      keyboardType: TextInputType.emailAddress,
-                      decoration: const InputDecoration(
-                        border: OutlineInputBorder(),
-                        hintText: 'Inserisci email...',
+                    if (!_emailFeatureLoading && _emailFeatureEnabled) ...[
+                      const SizedBox(height: 28),
+                      const Text(
+                        'Se desideri riceverne una copia via email, inserisci il tuo indirizzo:',
+                        textAlign: TextAlign.center,
+                        style: TextStyle(fontSize: 16),
                       ),
-                    ),
-                    const SizedBox(height: 24),
-                    SizedBox(
-                      width: 260,
-                      child: FilledButton(
-                        onPressed: _sending ? null : _sendEmail,
-                        style: FilledButton.styleFrom(
-                          backgroundColor: const Color(0xFF4CAF50),
-                          foregroundColor: Colors.white,
-                          padding: const EdgeInsets.symmetric(vertical: 18),
-                        ),
-                        child: Text(
-                          _sending ? 'Invio in corso...' : 'Invia PDF via mail',
-                          style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w700),
+                      const SizedBox(height: 18),
+                      TextField(
+                        controller: _emailCtrl,
+                        keyboardType: TextInputType.emailAddress,
+                        decoration: const InputDecoration(
+                          border: OutlineInputBorder(),
+                          hintText: 'Inserisci email...',
                         ),
                       ),
-                    ),
+                      const SizedBox(height: 24),
+                      SizedBox(
+                        width: 260,
+                        child: FilledButton(
+                          onPressed: _sending ? null : _sendEmail,
+                          style: FilledButton.styleFrom(
+                            backgroundColor: const Color(0xFF4CAF50),
+                            foregroundColor: Colors.white,
+                            padding: const EdgeInsets.symmetric(vertical: 18),
+                          ),
+                          child: Text(
+                            _sending ? 'Invio in corso...' : 'Invia PDF via mail',
+                            style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w700),
+                          ),
+                        ),
+                      ),
+                    ],
                     const SizedBox(height: 12),
                     SizedBox(
                       width: 260,
@@ -2059,6 +2089,14 @@ class _AdminPageState extends State<AdminPage> {
   Map<String, dynamic>? _data;
   bool _loading = true;
   bool _saving = false;
+
+  bool get _emailEnabled => (_data?['email_enabled'] ?? 0).toString() == '1';
+
+  Future<void> _setEmailEnabled(bool value) async {
+    _data!['email_enabled'] = value ? 1 : 0;
+    setState(() {});
+    await _persist();
+  }
 
   List<Map<String, dynamic>> get _areas => ((_data?['areas'] as List?) ?? const [])
       .map((e) => (e as Map).cast<String, dynamic>())
@@ -2678,6 +2716,32 @@ class _AdminPageState extends State<AdminPage> {
               : ListView(
                   padding: const EdgeInsets.all(16),
                   children: [
+                    Card(
+                      child: Padding(
+                        padding: const EdgeInsets.all(12),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            const Text(
+                              'Impostazioni',
+                              style: TextStyle(fontSize: 18, fontWeight: FontWeight.w700),
+                            ),
+                            const SizedBox(height: 4),
+                            SwitchListTile(
+                              contentPadding: EdgeInsets.zero,
+                              title: const Text('Invio PDF via email'),
+                              subtitle: const Text(
+                                'Se disattivo, il pulsante "Invia PDF via mail" è nascosto agli operatori '
+                                'e visibile solo abilitandolo qui.',
+                              ),
+                              value: _emailEnabled,
+                              onChanged: _saving ? null : _setEmailEnabled,
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                    const SizedBox(height: 12),
                     Card(
                       child: Padding(
                         padding: const EdgeInsets.all(12),
