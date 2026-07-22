@@ -22,9 +22,11 @@ jobs:
         run: flutter pub get
 
       - name: Build release APK
+        env:
+          APP_ADMIN_PASSWORD: ${{ secrets.APP_ADMIN_PASSWORD }}
         run: |
           flutter build apk --release \
-            --dart-define=APP_ADMIN_PASSWORD=${{ secrets.APP_ADMIN_PASSWORD }}
+            --dart-define="APP_ADMIN_PASSWORD=$APP_ADMIN_PASSWORD"
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
