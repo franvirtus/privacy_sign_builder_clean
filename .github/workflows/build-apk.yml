@@ -21,12 +21,40 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
+      - name: Restore release keystore
+        env:
+          KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+        run: |
+          if [ -z "$KEYSTORE_BASE64" ]; then
+            echo "::error::KEYSTORE_BASE64 secret is not set - release APK would not be signed with the release key."
+            exit 1
+          fi
+          echo "$KEYSTORE_BASE64" | base64 -d > android/app/virtus-privacy-release.jks
+          cat > android/key.properties <<EOF
+          storePassword=$KEYSTORE_PASSWORD
+          keyPassword=$KEY_PASSWORD
+          keyAlias=$KEY_ALIAS
+          storeFile=virtus-privacy-release.jks
+          EOF
+
       - name: Build release APK
         env:
           APP_ADMIN_PASSWORD: ${{ secrets.APP_ADMIN_PASSWORD }}
         run: |
           flutter build apk --release \
             --dart-define="APP_ADMIN_PASSWORD=$APP_ADMIN_PASSWORD"
+
+      - name: Verify APK signature
+        run: |
+          APKSIGNER=$(ls "${ANDROID_SDK_ROOT:-$ANDROID_HOME}"/build-tools/*/apksigner 2>/dev/null | sort -V | tail -n1)
+          if [ -n "$APKSIGNER" ]; then
+            "$APKSIGNER" verify --print-certs build/app/outputs/flutter-apk/app-release.apk
+          else
+            echo "apksigner not found; skipping signature print"
+          fi
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
