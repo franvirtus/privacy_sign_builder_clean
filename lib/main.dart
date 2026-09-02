@@ -7,6 +7,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_html/flutter_html.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:open_filex/open_filex.dart';
+import 'package:file_picker/file_picker.dart';
 import 'package:pdf/widgets.dart' as pw;
 import 'package:pdf/pdf.dart';
 import 'package:signature/signature.dart';
@@ -2004,6 +2005,104 @@ class _AdminPageState extends State<AdminPage> {
     );
   }
 
+  /// Same visible-Downloads folder already used for signed PDFs (see
+  /// `_baseDir()` above) — proven to work on this app without any extra
+  /// storage permission, so the backup file is easy to find in Files
+  /// and easy to move between devices/app versions when needed (e.g. an
+  /// app update that changes the release signing key, which forces a
+  /// clean reinstall instead of an in-place update).
+  Future<Directory> _configBackupDir() async {
+    final dir = Directory('/storage/emulated/0/Download/VirtusPrivacy');
+    if (!await dir.exists()) await dir.create(recursive: true);
+    return dir;
+  }
+
+  Future<void> _exportConfiguration() async {
+    if (_data == null) return;
+    setState(() => _saving = true);
+    try {
+      final dir = await _configBackupDir();
+      final stamp = DateTime.now().toIso8601String().replaceAll(RegExp(r'[:.]'), '-');
+      final file = File('${dir.path}/virtus_privacy_config_backup_$stamp.json');
+      const encoder = JsonEncoder.withIndent('  ');
+      await file.writeAsString(encoder.convert(_data), flush: true);
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Configurazione esportata: ${file.path}')),
+      );
+    } catch (e) {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Errore esportazione: $e')),
+      );
+    } finally {
+      if (mounted) setState(() => _saving = false);
+    }
+  }
+
+  /// Uses the system document picker (Storage Access Framework) rather than
+  /// listing the Download/VirtusPrivacy folder directly: on a fresh install
+  /// (e.g. after a signing-key change forces uninstall + reinstall, see
+  /// `_exportConfiguration`) the app gets a new UID, and plain directory
+  /// listing on shared storage can silently come back empty for files that
+  /// UID didn't create — even though the files are still there. The system
+  /// picker sidesteps that entirely: the OS grants read access to whatever
+  /// the person taps, regardless of which app or UID originally wrote it.
+  Future<void> _importConfiguration() async {
+    FilePickerResult? result;
+    try {
+      result = await FilePicker.platform.pickFiles(
+        type: FileType.custom,
+        allowedExtensions: ['json'],
+        withData: false,
+      );
+    } catch (e) {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Errore selezione file: $e')),
+      );
+      return;
+    }
+    final path = result?.files.single.path;
+    if (path == null) return; // cancelled
+    final picked = File(path);
+
+    final confirmed = await showDialog<bool>(
+      context: context,
+      builder: (dialogContext) => AlertDialog(
+        title: const Text('Confermi il ripristino?'),
+        content: Text('La configurazione attuale (aree e professionisti) verrà sostituita con il contenuto di "${picked.path.split(Platform.pathSeparator).last}". Questa azione non è reversibile.'),
+        actions: [
+          TextButton(onPressed: () => Navigator.of(dialogContext).pop(false), child: const Text('Annulla')),
+          FilledButton(onPressed: () => Navigator.of(dialogContext).pop(true), child: const Text('Ripristina')),
+        ],
+      ),
+    );
+    if (confirmed != true) return;
+
+    setState(() => _saving = true);
+    try {
+      final raw = await picked.readAsString();
+      final parsed = (jsonDecode(raw) as Map).cast<String, dynamic>();
+      if (parsed['areas'] is! List || parsed['professionals'] is! List) {
+        throw const FormatException('Il file non contiene un formato di configurazione valido.');
+      }
+      await ModulesRepository.saveJson(parsed);
+      await _load();
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Configurazione ripristinata.')),
+      );
+    } catch (e) {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Errore importazione: $e')),
+      );
+    } finally {
+      if (mounted) setState(() => _saving = false);
+    }
+  }
+
   String _slugifyAreaId(String input) {
     var value = input.toLowerCase().trim();
     const replacements = {
@@ -2546,6 +2645,16 @@ class _AdminPageState extends State<AdminPage> {
         foregroundColor: Colors.white,
         title: const Text('Admin'),
         actions: [
+          IconButton(
+            tooltip: 'Esporta configurazione (aree e professionisti)',
+            onPressed: _loading || _saving ? null : _exportConfiguration,
+            icon: const Icon(Icons.save_alt),
+          ),
+          IconButton(
+            tooltip: 'Importa configurazione da backup',
+            onPressed: _loading || _saving ? null : _importConfiguration,
+            icon: const Icon(Icons.file_open_outlined),
+          ),
           IconButton(
             tooltip: 'Reimporta moduli dagli asset',
             onPressed: _loading || _saving ? null : _resetFromAsset,
