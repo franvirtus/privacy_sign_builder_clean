@@ -536,6 +536,14 @@ class _ModulePageState extends State<ModulePage> {
   final Map<String, SignatureController> _sigControllers = {};
   bool _saving = false;
 
+  // Lingua dell'interfaccia del modulo: config.ui.lang ("it" di default, "en" per i moduli in inglese).
+  bool get _en {
+    final ui = widget.professional.config['ui'];
+    return ui is Map && (ui['lang'] ?? '').toString().toLowerCase() == 'en';
+  }
+
+  String _t(String it, String en) => _en ? en : it;
+
   // ---------------------------
   // HTML / testo -> plain text (PDF)
   // - pulisce NBSP e caratteri “invisibili” che spesso diventano quadratini
@@ -823,7 +831,7 @@ class _ModulePageState extends State<ModulePage> {
     // regola extra: Nome e Cognome (sempre)
     final patientName = _guessPatientName(blocks);
     if (patientName.trim().isEmpty) {
-      missing.add('Nome e Cognome');
+      missing.add(_t('Nome e Cognome', 'First and last name'));
     }
 
     for (final b in requiredBlocks) {
@@ -853,7 +861,7 @@ class _ModulePageState extends State<ModulePage> {
 
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: Text('Compila i campi obbligatori:\n- ${compact.join('\n- ')}'),
+          content: Text('${_t('Compila i campi obbligatori', 'Please fill in the required fields')}:\n- ${compact.join('\n- ')}'),
           duration: const Duration(seconds: 5),
         ),
       );
@@ -940,14 +948,14 @@ class _ModulePageState extends State<ModulePage> {
 
                     Navigator.of(context).pushReplacement(
                       MaterialPageRoute(
-                        builder: (_) => SaveCompletedPage(pdfFile: outFile),
+                        builder: (_) => SaveCompletedPage(pdfFile: outFile, english: _en),
                       ),
                     );
                   },
             icon: _saving
                 ? const SizedBox(width: 18, height: 18, child: CircularProgressIndicator(strokeWidth: 2))
                 : const Icon(Icons.save_outlined),
-            label: Text(_saving ? 'Salvataggio...' : 'Salva modulo'),
+            label: Text(_saving ? _t('Salvataggio...', 'Saving...') : _t('Salva modulo', 'Save form')),
           ),
         ),
       ),
@@ -1070,7 +1078,7 @@ class _ModulePageState extends State<ModulePage> {
                       setState(() {});
                     },
                     icon: const Icon(Icons.close),
-                    label: const Text('Cancella firma'),
+                    label: Text(_t('Cancella firma', 'Clear signature')),
                   ),
                 ),
               ],
@@ -1250,9 +1258,9 @@ class _ModulePageState extends State<ModulePage> {
         decoration: InputDecoration(
           isDense: dense,
           border: const OutlineInputBorder(),
-          labelText: label.isNotEmpty ? (required ? '$label *' : label) : 'Data',
+          labelText: label.isNotEmpty ? (required ? '$label *' : label) : _t('Data', 'Date'),
         ),
-        child: Text(current ?? 'Seleziona data'),
+        child: Text(current ?? _t('Seleziona data', 'Select date')),
       ),
     );
   }
@@ -1782,14 +1790,14 @@ class _ModulePageState extends State<ModulePage> {
             final w = <pw.Widget>[];
 
             w.add(pw.Text(
-              'Modulo Privacy - ${pro.name}',
+              '${_t('Modulo Privacy', 'Privacy Form')} - ${pro.name}',
               style: pw.TextStyle(fontSize: 18, fontWeight: pw.FontWeight.bold),
             ));
             w.add(pw.SizedBox(height: 6));
             w.add(pw.Text('Area: ${widget.areaName}', style: const pw.TextStyle(fontSize: 11)));
-            w.add(pw.Text('Data: $ts', style: const pw.TextStyle(fontSize: 11)));
+            w.add(pw.Text('${_t('Data', 'Date')}: $ts', style: const pw.TextStyle(fontSize: 11)));
             if (patientName.trim().isNotEmpty) {
-              w.add(pw.Text('Paziente: $patientName', style: const pw.TextStyle(fontSize: 11)));
+              w.add(pw.Text('${_t('Paziente', 'Patient')}: $patientName', style: const pw.TextStyle(fontSize: 11)));
             }
             w.add(pw.SizedBox(height: 14));
             w.addAll(contentWidgets);
@@ -1802,7 +1810,7 @@ class _ModulePageState extends State<ModulePage> {
       return outFile;
     } catch (e) {
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Errore salvataggio PDF: $e'), duration: const Duration(seconds: 5)),
+        SnackBar(content: Text('${_t('Errore salvataggio PDF', 'Error saving PDF')}: $e'), duration: const Duration(seconds: 5)),
       );
       return null;
     } finally {
@@ -1831,10 +1839,12 @@ class _ModulePageState extends State<ModulePage> {
 
 class SaveCompletedPage extends StatefulWidget {
   final File pdfFile;
+  final bool english;
 
   const SaveCompletedPage({
     super.key,
     required this.pdfFile,
+    this.english = false,
   });
 
   @override
@@ -1844,6 +1854,8 @@ class SaveCompletedPage extends StatefulWidget {
 class _SaveCompletedPageState extends State<SaveCompletedPage> {
   bool _opening = false;
 
+  String _t(String it, String en) => widget.english ? en : it;
+
   Future<void> _openPdf() async {
     setState(() => _opening = true);
     try {
@@ -1852,13 +1864,13 @@ class _SaveCompletedPageState extends State<SaveCompletedPage> {
       final type = result.type.toString().toLowerCase();
       if (!type.contains('done')) {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Impossibile aprire il PDF: ${result.message}')),
+          SnackBar(content: Text('${_t('Impossibile aprire il PDF', 'Unable to open the PDF')}: ${result.message}')),
         );
       }
     } catch (e) {
       if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Errore apertura PDF: $e')),
+        SnackBar(content: Text('${_t('Errore apertura PDF', 'Error opening PDF')}: $e')),
       );
     } finally {
       if (mounted) setState(() => _opening = false);
@@ -1891,8 +1903,8 @@ class _SaveCompletedPageState extends State<SaveCompletedPage> {
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    const Text(
-                      'Modulo salvato con successo!',
+                    Text(
+                      _t('Modulo salvato con successo!', 'Form saved successfully!'),
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         fontSize: 22,
@@ -1905,7 +1917,7 @@ class _SaveCompletedPageState extends State<SaveCompletedPage> {
                       child: OutlinedButton.icon(
                         onPressed: _opening ? null : _openPdf,
                         icon: const Icon(Icons.picture_as_pdf_outlined),
-                        label: Text(_opening ? 'Apertura...' : 'Apri PDF'),
+                        label: Text(_opening ? _t('Apertura...', 'Opening...') : _t('Apri PDF', 'Open PDF')),
                       ),
                     ),
                     const SizedBox(height: 16),
@@ -1919,9 +1931,9 @@ class _SaveCompletedPageState extends State<SaveCompletedPage> {
                           padding: const EdgeInsets.symmetric(vertical: 18),
                         ),
                         icon: const Icon(Icons.arrow_back),
-                        label: const Text(
-                          'Torna alla home',
-                          style: TextStyle(fontSize: 16, fontWeight: FontWeight.w700),
+                        label: Text(
+                          _t('Torna alla home', 'Back to home'),
+                          style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w700),
                         ),
                       ),
                     ),
