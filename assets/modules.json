@@ -1,6 +1,6 @@
 {
-  "asset_version": 10,
-  "generated_at": "2026-09-01T12:00:00",
+  "asset_version": 11,
+  "generated_at": "2026-09-23T12:00:00",
   "areas": [
     {
       "id": "nutrizione",
@@ -2532,6 +2532,274 @@
         "ui": {
           "title": "Modulo Informativa Privacy – Dott. Simone De Medici",
           "subtitle": "Osteopatia",
+          "informativa_position": "after_first"
+        },
+        "disable_legacy_injection": true
+      }
+    },
+    {
+      "id": "25",
+      "name": "Dott.ssa Veronica Lorenzini (EN)",
+      "sector": "Osteopatia Pediatrica",
+      "area_id": "osteopatia_pediatrica",
+      "active": 1,
+      "config": {
+        "nome": "Dr. Veronica Lorenzini",
+        "firme": 2,
+        "etichette_firme": [
+          "Privacy Form Signature",
+          "Consent Signature"
+        ],
+        "testo_informativa": "<p>Pursuant to Article 13 of European Regulation 2016/679 (hereinafter “GDPR”), national legislation and the measures of the Italian Data Protection Authority (Garante Privacy), and in relation to the personal data that the undersigned, Veronica Lorenzini, will come to hold, I inform you as follows:</p><p><strong>1. PURPOSE OF THE PROCESSING AND WHETHER PROVIDING YOUR DATA IS MANDATORY OR OPTIONAL</strong><br>Your personal data, including special categories of data pursuant to Art. 9 GDPR, will be processed by the Data Controller, using IT and/or paper-based tools, for one or more of the following purposes:</p><p><strong>A)</strong> Purposes connected and instrumental to the correct and complete performance of my professional assignment, relating to all osteopathic manipulative assessment and treatment activities carried out to protect your health. Providing your data for this purpose is optional. However, failure to give consent will make it impossible for the Data Controller to provide the requested service. You may give your consent, pursuant to Art. 6.1 and Art. 9.2(a) GDPR, by signing the appropriate form issued by the Data Controller.</p><p><strong>B)</strong> Purposes connected to compliance with regulatory and tax obligations, such as, by way of example, compliance with legal/regulatory obligations imposed by EU and/or national law, as well as all administrative and accounting obligations related to payment for the professional services rendered and/or the management of contractual obligations with insurance companies. Providing data for these purposes is not subject to consent, in accordance with Art. 6.1(b) and (c) GDPR.</p><p><strong>C)</strong> Purposes connected to statistical analysis. This category includes the use of your data, including special categories of data, after anonymisation, for research and studies conducted by the Data Controller.<br>For this purpose, providing your data is optional and subject to your consent, given by signing the appropriate form issued by the Data Controller.</p><p><strong>D)</strong> Purposes connected to sending informational material. This category includes sending newsletters and/or periodic e-mail communications about the Data Controller's activities and services.<br>For this purpose, providing your data is optional and subject to your consent, given by signing the appropriate form issued by the Data Controller.</p><p><strong>2. HOW THE DATA IS PROCESSED</strong><br>The data is processed by means of the operations, or set of operations, indicated in Art. 2 of the EU Regulation, using IT and/or paper-based tools.<br>Processing is carried out by the Data Controller and/or by persons authorised to process data on the Controller's behalf.</p><p><strong>3. DISCLOSURE OF DATA</strong><br>Subject to your consent, in order to pursue the purposes referred to in point 1 A), the Data Controller may disclose your personal and special category data to family members and/or to medical staff, and more generally healthcare staff, indicated by you.<br>Furthermore, your data may be disclosed without your consent to: parties responsible for handling reimbursement claims and/or verifying the services provided; social security and welfare bodies, and insurance companies that, as independent data controllers, provide supplementary assistance services; the Police, the judicial authorities and other public security bodies.</p><p><strong>4. DISSEMINATION OF DATA AND TRANSFER OF DATA ABROAD</strong><br>Your personal data: is not subject to dissemination; is not transferred abroad.</p><p><strong>5. DATA RETENTION PERIOD</strong><br>Your special category data will be retained for the period of time provided for by EU regulations, laws or other regulations, and in any case for a period not exceeding what is strictly necessary to fulfil the assignments received.<br>Personal data that is not sensitive and is functional to fulfilling legal obligations will also be retained after the end of the professional service provided, in compliance with those obligations, in the strictest respect of the retention timeframes set out in the applicable regulations from time to time, and in any case for a period not exceeding 10 years.</p><p><strong>6. RIGHTS OF THE DATA SUBJECT</strong><br>As the data subject, you may exercise your rights as set out in Articles 15, 16, 17, 18, 19, 20, 21 and 22 of EU Regulation 2016/679, by contacting the Data Controller or, where indicated, the Data Processor. You have the right, at any time, to ask the Data Controller for access to your personal data, its rectification, and its erasure, or to request a restriction of processing. You also have the right to object, at any time, to the processing of your data (including automated processing, e.g. profiling), as well as to the portability of your data. Without prejudice to any other administrative or judicial remedy, if you believe that the processing of data concerning you infringes EU Regulation 2016/679, you have the right to lodge a complaint with the Italian Data Protection Authority (Garante per la protezione dei dati personali) and, with reference to Art. 6(1)(a) and Art. 9(2)(a) of the same Regulation, you have the right to withdraw your consent at any time. In the case of a data portability request, the Data Controller will provide you, in a structured, commonly used and machine-readable format, with the personal data concerning you, subject to paragraphs 3 and 4 of Art. 20 of the EU Regulation.</p><p><strong>7. HOW TO EXERCISE YOUR RIGHTS</strong><br>You may exercise the above rights at any time by e-mail to: lorenziniveronica77@gmail.com</p><p><strong>8. DATA CONTROLLER, PROCESSORS AND AUTHORISED PERSONS</strong><br>The Data Controller is Veronica Lorenzini, at Virtus Group.<br>The Data Processor is Veronica Lorenzini. The updated list of processors and authorised persons is kept at the Data Controller's premises.</p>",
+        "blocks": [
+          {
+            "type": "inline_sentence",
+            "parts": [
+              {
+                "text": "Dear "
+              },
+              {
+                "field": {
+                  "type": "choice",
+                  "data_key": "patient.title",
+                  "render": "select",
+                  "width": 140,
+                  "options": [
+                    {
+                      "label": "Mr",
+                      "value": "Mr"
+                    },
+                    {
+                      "label": "Mrs",
+                      "value": "Mrs"
+                    }
+                  ],
+                  "validation": {
+                    "required": true
+                  }
+                }
+              },
+              {
+                "text": " "
+              },
+              {
+                "field": {
+                  "type": "text_input",
+                  "data_key": "patient.full_name",
+                  "placeholder": "First and last name",
+                  "width": 280,
+                  "validation": {
+                    "required": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "inline_sentence",
+            "no_wrap": true,
+            "parts": [
+              {
+                "text": "I, the undersigned, "
+              },
+              {
+                "field": {
+                  "type": "text_input",
+                  "data_key": "patient.full_name",
+                  "placeholder": "First and last name",
+                  "width": 220,
+                  "width_px": 180,
+                  "validation": {
+                    "required": true
+                  }
+                }
+              },
+              {
+                "text": ", born in "
+              },
+              {
+                "field": {
+                  "type": "text_input",
+                  "data_key": "patient.birth_place",
+                  "placeholder": "Place of birth",
+                  "width": 200,
+                  "width_px": 160,
+                  "validation": {
+                    "required": true
+                  }
+                }
+              },
+              {
+                "text": " on "
+              },
+              {
+                "field": {
+                  "type": "date",
+                  "data_key": "patient.birth_date",
+                  "width": 150,
+                  "width_px": 135,
+                  "validation": {
+                    "required": true
+                  }
+                }
+              },
+              {
+                "text": ", residing at "
+              },
+              {
+                "field": {
+                  "type": "text_input",
+                  "data_key": "patient.address",
+                  "placeholder": "Address",
+                  "width": 200,
+                  "width_px": 150,
+                  "validation": {
+                    "required": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "html",
+            "html": "<p>Having received the above information provided by the Data Controller pursuant to Art. 13 of the EU Regulation, and being aware, in particular, that the processing may involve health-related data, I give my consent to the processing of the aforementioned data for the purposes referred to in point 1, letter A) of the notice.</p>"
+          },
+          {
+            "type": "signature",
+            "label": "Privacy Form Signature",
+            "data_key": "signature_privacy",
+            "validation": {
+              "required": true
+            }
+          },
+          {
+            "type": "section",
+            "title": "I further declare that I:",
+            "children": [
+              {
+                "type": "choice",
+                "label": "give my consent for the purposes referred to in point 1, letter C)",
+                "data_key": "consenso_c",
+                "render": "radio",
+                "options": [
+                  {
+                    "label": "Give",
+                    "value": "Give"
+                  },
+                  {
+                    "label": "Do not give",
+                    "value": "Do not give"
+                  }
+                ],
+                "validation": {
+                  "required": true
+                },
+                "inline_options": true,
+                "hide_label": false,
+                "label_after_options": true
+              },
+              {
+                "type": "choice",
+                "label": "give my consent for the purposes referred to in point 1, letter D)",
+                "data_key": "consenso_d",
+                "render": "radio",
+                "options": [
+                  {
+                    "label": "Give",
+                    "value": "Give"
+                  },
+                  {
+                    "label": "Do not give",
+                    "value": "Do not give"
+                  }
+                ],
+                "validation": {
+                  "required": true
+                },
+                "inline_options": true,
+                "hide_label": false,
+                "label_after_options": true
+              },
+              {
+                "type": "choice",
+                "label": "give my consent to the disclosure of my personal and special category data to family members and/or medical staff",
+                "data_key": "consenso_familiari",
+                "render": "radio",
+                "options": [
+                  {
+                    "label": "Give",
+                    "value": "Give"
+                  },
+                  {
+                    "label": "Do not give",
+                    "value": "Do not give"
+                  }
+                ],
+                "validation": {
+                  "required": true
+                },
+                "inline_options": true,
+                "hide_label": false,
+                "label_after_options": true
+              },
+              {
+                "type": "choice",
+                "label": "the sending and sharing of the reports and results of the postural assessment with healthcare professionals and members of the multidisciplinary team, solely for the purpose of enabling an integrated clinical evaluation and the correct management of the minor's care pathway.",
+                "data_key": "consenso_relazioni_referti_equipe",
+                "render": "radio",
+                "options": [
+                  {
+                    "label": "authorises",
+                    "value": "authorises"
+                  },
+                  {
+                    "label": "does not authorise",
+                    "value": "does not authorise"
+                  }
+                ],
+                "validation": {
+                  "required": true
+                },
+                "inline_options": true,
+                "hide_label": false,
+                "label_after_options": true,
+                "intro_label": "The parent"
+              }
+            ]
+          },
+          {
+            "type": "signature",
+            "label": "Consent Signature",
+            "data_key": "signature_consensi",
+            "validation": {
+              "required": true
+            }
+          },
+          {
+            "type": "row",
+            "cols": [
+              {
+                "type": "text_input",
+                "label": "Place",
+                "data_key": "patient.place",
+                "validation": {
+                  "required": true
+                }
+              },
+              {
+                "type": "date",
+                "label": "Date",
+                "data_key": "patient.date",
+                "validation": {
+                  "required": true
+                }
+              }
+            ]
+          }
+        ],
+        "ui": {
+          "title": "Privacy Notice Form – Dr. Veronica Lorenzini",
+          "subtitle": "Paediatric Osteopathy (English)",
           "informativa_position": "after_first"
         },
         "disable_legacy_injection": true
