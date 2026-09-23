@@ -732,7 +732,8 @@ class _ModulePageState extends State<ModulePage> {
           if (p is Map && p['field'] is Map) {
             final f = (p['field'] as Map).cast<String, dynamic>();
             final k = _dataKey(f);
-            final lab = (f['label'] ?? f['placeholder'] ?? '').toString().trim();
+            // missing_label: nome del campo usato solo nel messaggio dei campi obbligatori (non visibile nel modulo)
+            final lab = (f['missing_label'] ?? f['label'] ?? f['placeholder'] ?? '').toString().trim();
             if (k.isNotEmpty && lab.isNotEmpty) out[k] = lab;
           }
         }
