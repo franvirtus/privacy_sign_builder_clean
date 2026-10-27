@@ -1,5 +1,5 @@
 {
-  "asset_version": 13,
+  "asset_version": 14,
   "generated_at": "2026-09-23T12:00:00",
   "areas": [
     {
@@ -2807,6 +2807,88 @@
           "lang": "en",
           "informativa_position": "after_first"
         },
+        "disable_legacy_injection": true
+      }
+    },
+    {
+      "id": "26",
+      "name": "Dott. Chris Oliver Boninsegna",
+      "sector": "fisioterapia",
+      "area_id": "fisioterapia",
+      "active": 1,
+      "config": {
+        "nome": "Dott. Chris Oliver Boninsegna",
+        "firme": 2,
+        "etichette_firme": [
+          "Firma del paziente",
+          "Firma del genitore/tutore"
+        ],
+        "testo_informativa": "<h3>INFORMATIVA SUL TRATTAMENTO DEI DATI PERSONALI</h3>\n<p>Pazienti – prestazioni fisioterapiche | Art. 13 Regolamento (UE) 2016/679</p>\n<p><strong>Titolare del trattamento.</strong> Boninsegna Chris Oliver, fisioterapista libero professionista, C.F. BNNCRS90L10B157H, P. IVA 04406580987, domicilio fiscale in Via Giovan Battista Tiepolo 11, int. 2, 25124 Brescia (BS).</p>\n<p><strong>Contatto per richieste privacy:</strong> Laura.pergolizzi@odcecbrescia.it.</p>\n<p><strong>Sede di svolgimento delle prestazioni:</strong> Centro Virtus, Via Corfù 71 e Via Montello 79 – Brescia. Il professionista opera come titolare autonomo per i trattamenti relativi alla propria attività, salvo diverse responsabilità effettive e accordi formalizzati con la struttura.</p>\n<p><strong>1. Tipologie di dati trattati</strong><br>Dati identificativi e di contatto (ad es. nome, cognome, codice fiscale, recapiti); dati amministrativi e di pagamento; informazioni sulla salute, anamnesi, referti, valutazioni funzionali, indicazioni terapeutiche e documentazione necessaria all’erogazione e alla continuità delle prestazioni fisioterapiche.</p>\n<p><strong>2. Finalità e basi giuridiche</strong><br>a) Prenotazione, gestione del rapporto professionale ed esecuzione degli adempimenti connessi alla prestazione: art. 6, par. 1, lett. b) GDPR, ove applicabile.<br>b) Valutazione, assistenza e trattamento fisioterapico: art. 9, par. 2, lett. h), e par. 3 GDPR, nel rispetto del segreto professionale; per i dati comuni collegati, art. 6, par. 1, lett. b) GDPR, ove applicabile.<br>c) Fatturazione e obblighi contabili, fiscali o di legge: art. 6, par. 1, lett. c) GDPR.<br>d) Accertamento, esercizio o difesa di un diritto: art. 6, par. 1, lett. f), e art. 9, par. 2, lett. f) GDPR, quando pertinenti.<br>Ulteriori finalità facoltative (es. promozioni o diffusione di immagini) saranno oggetto di informativa e, se necessario, consenso separati.</p>\n<p><strong>3. Natura del conferimento</strong><br>Il conferimento dei dati necessari alla valutazione e alla prestazione sanitaria o richiesti dalla legge è necessario: l’eventuale mancata comunicazione potrebbe rendere impossibile svolgere la prestazione o adempiere agli obblighi previsti. Eventuali trattamenti facoltativi non condizionano la cura.</p>\n<p><strong>4. Modalità e sicurezza</strong><br>I dati possono essere trattati su supporto cartaceo e mediante strumenti elettronici da soggetti autorizzati, con misure tecniche e organizzative adeguate a tutelarne riservatezza, integrità e disponibilità. Non sono previste decisioni basate unicamente su trattamenti automatizzati che producano effetti giuridici o analogamente significativi.</p>\n<p><strong>5. Destinatari dei dati</strong><br>I dati possono essere comunicati, nei limiti necessari, a collaboratori autorizzati, consulenti fiscali, fornitori di servizi gestionali/informatici, soggetti tenuti al segreto o vincolati da accordi conformi al GDPR, nonché alle autorità nei casi previsti dalla legge. La struttura ospitante può trattare dati per propri scopi oppure per conto del professionista (ad esempio, per prenotazioni o gestione documentale): ruoli e accessi devono essere definiti in base all’organizzazione effettiva. I dati sulla salute non saranno diffusi.</p>\n<p><strong>6. Conservazione</strong><br>I dati saranno conservati per il tempo necessario alle finalità dichiarate e per i periodi imposti dalle norme applicabili, valutando la natura della documentazione sanitaria e gli obblighi fiscali e professionali. Il titolare definirà e documenterà i termini di conservazione per ciascuna categoria di dati, incluse le eventuali esigenze di tutela dei diritti.</p>\n<p><strong>7. Trasferimenti fuori dallo Spazio Economico Europeo</strong><br>Eventuali trasferimenti a paesi terzi o organizzazioni internazionali avverranno soltanto nel rispetto del Capo V del GDPR e con le garanzie richieste. I servizi e i fornitori effettivamente utilizzati devono essere verificati dal titolare.</p>\n<p><strong>8. Diritti dell’interessato</strong><br>Il paziente può esercitare, nei casi previsti, i diritti di accesso, rettifica, cancellazione, limitazione, opposizione e portabilità (artt. 15–22 GDPR), rivolgendosi al titolare ai recapiti indicati. Può inoltre proporre reclamo al Garante per la protezione dei dati personali (www.garanteprivacy.it). Il diritto alla cancellazione non è assoluto in presenza di obblighi legali di conservazione.</p>\n<p><strong>9. Consenso per finalità di cura</strong><br>Per i trattamenti di dati relativi alla salute strettamente necessari alla prestazione sanitaria, effettuati dal fisioterapista soggetto al segreto professionale, non è richiesto il consenso privacy del paziente (art. 9, par. 2, lett. h), GDPR). Resta distinto il consenso informato alla prestazione sanitaria, quando previsto. Trattamenti ulteriori che richiedano consenso saranno proposti separatamente.</p>\n<p><strong>PRESA VISIONE DELL’INFORMATIVA</strong></p>\n<p>Dichiaro di aver ricevuto o di aver avuto a disposizione la presente informativa sul trattamento dei dati personali. La firma attesta la presa visione e non costituisce consenso al trattamento per finalità di cura.</p>\n<p><em>Versione 27/10/2026</em></p>",
+        "blocks": [
+          {
+            "type": "text_block",
+            "content": "<h3>INFORMATIVA SUL TRATTAMENTO DEI DATI PERSONALI</h3>\n<p>Pazienti – prestazioni fisioterapiche | Art. 13 Regolamento (UE) 2016/679</p>\n<p><strong>Titolare del trattamento.</strong> Boninsegna Chris Oliver, fisioterapista libero professionista, C.F. BNNCRS90L10B157H, P. IVA 04406580987, domicilio fiscale in Via Giovan Battista Tiepolo 11, int. 2, 25124 Brescia (BS).</p>\n<p><strong>Contatto per richieste privacy:</strong> Laura.pergolizzi@odcecbrescia.it.</p>\n<p><strong>Sede di svolgimento delle prestazioni:</strong> Centro Virtus, Via Corfù 71 e Via Montello 79 – Brescia. Il professionista opera come titolare autonomo per i trattamenti relativi alla propria attività, salvo diverse responsabilità effettive e accordi formalizzati con la struttura.</p>\n<p><strong>1. Tipologie di dati trattati</strong><br>Dati identificativi e di contatto (ad es. nome, cognome, codice fiscale, recapiti); dati amministrativi e di pagamento; informazioni sulla salute, anamnesi, referti, valutazioni funzionali, indicazioni terapeutiche e documentazione necessaria all’erogazione e alla continuità delle prestazioni fisioterapiche.</p>\n<p><strong>2. Finalità e basi giuridiche</strong><br>a) Prenotazione, gestione del rapporto professionale ed esecuzione degli adempimenti connessi alla prestazione: art. 6, par. 1, lett. b) GDPR, ove applicabile.<br>b) Valutazione, assistenza e trattamento fisioterapico: art. 9, par. 2, lett. h), e par. 3 GDPR, nel rispetto del segreto professionale; per i dati comuni collegati, art. 6, par. 1, lett. b) GDPR, ove applicabile.<br>c) Fatturazione e obblighi contabili, fiscali o di legge: art. 6, par. 1, lett. c) GDPR.<br>d) Accertamento, esercizio o difesa di un diritto: art. 6, par. 1, lett. f), e art. 9, par. 2, lett. f) GDPR, quando pertinenti.<br>Ulteriori finalità facoltative (es. promozioni o diffusione di immagini) saranno oggetto di informativa e, se necessario, consenso separati.</p>\n<p><strong>3. Natura del conferimento</strong><br>Il conferimento dei dati necessari alla valutazione e alla prestazione sanitaria o richiesti dalla legge è necessario: l’eventuale mancata comunicazione potrebbe rendere impossibile svolgere la prestazione o adempiere agli obblighi previsti. Eventuali trattamenti facoltativi non condizionano la cura.</p>\n<p><strong>4. Modalità e sicurezza</strong><br>I dati possono essere trattati su supporto cartaceo e mediante strumenti elettronici da soggetti autorizzati, con misure tecniche e organizzative adeguate a tutelarne riservatezza, integrità e disponibilità. Non sono previste decisioni basate unicamente su trattamenti automatizzati che producano effetti giuridici o analogamente significativi.</p>\n<p><strong>5. Destinatari dei dati</strong><br>I dati possono essere comunicati, nei limiti necessari, a collaboratori autorizzati, consulenti fiscali, fornitori di servizi gestionali/informatici, soggetti tenuti al segreto o vincolati da accordi conformi al GDPR, nonché alle autorità nei casi previsti dalla legge. La struttura ospitante può trattare dati per propri scopi oppure per conto del professionista (ad esempio, per prenotazioni o gestione documentale): ruoli e accessi devono essere definiti in base all’organizzazione effettiva. I dati sulla salute non saranno diffusi.</p>\n<p><strong>6. Conservazione</strong><br>I dati saranno conservati per il tempo necessario alle finalità dichiarate e per i periodi imposti dalle norme applicabili, valutando la natura della documentazione sanitaria e gli obblighi fiscali e professionali. Il titolare definirà e documenterà i termini di conservazione per ciascuna categoria di dati, incluse le eventuali esigenze di tutela dei diritti.</p>\n<p><strong>7. Trasferimenti fuori dallo Spazio Economico Europeo</strong><br>Eventuali trasferimenti a paesi terzi o organizzazioni internazionali avverranno soltanto nel rispetto del Capo V del GDPR e con le garanzie richieste. I servizi e i fornitori effettivamente utilizzati devono essere verificati dal titolare.</p>\n<p><strong>8. Diritti dell’interessato</strong><br>Il paziente può esercitare, nei casi previsti, i diritti di accesso, rettifica, cancellazione, limitazione, opposizione e portabilità (artt. 15–22 GDPR), rivolgendosi al titolare ai recapiti indicati. Può inoltre proporre reclamo al Garante per la protezione dei dati personali (www.garanteprivacy.it). Il diritto alla cancellazione non è assoluto in presenza di obblighi legali di conservazione.</p>\n<p><strong>9. Consenso per finalità di cura</strong><br>Per i trattamenti di dati relativi alla salute strettamente necessari alla prestazione sanitaria, effettuati dal fisioterapista soggetto al segreto professionale, non è richiesto il consenso privacy del paziente (art. 9, par. 2, lett. h), GDPR). Resta distinto il consenso informato alla prestazione sanitaria, quando previsto. Trattamenti ulteriori che richiedano consenso saranno proposti separatamente.</p>\n<p><strong>PRESA VISIONE DELL’INFORMATIVA</strong></p>\n<p>Dichiaro di aver ricevuto o di aver avuto a disposizione la presente informativa sul trattamento dei dati personali. La firma attesta la presa visione e non costituisce consenso al trattamento per finalità di cura.</p>\n<p><em>Versione 27/10/2026</em></p>"
+          },
+          {
+            "type": "text_input",
+            "label": "Nome e cognome paziente",
+            "data_key": "patient.full_name",
+            "validation": {
+              "required": true
+            }
+          },
+          {
+            "type": "row",
+            "cols": [
+              {
+                "type": "text_input",
+                "label": "Luogo",
+                "data_key": "firma_luogo",
+                "validation": {
+                  "required": true
+                }
+              },
+              {
+                "type": "date",
+                "label": "Data",
+                "data_key": "firma_data",
+                "validation": {
+                  "required": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "signature",
+            "label": "Firma paziente",
+            "data_key": "firma_1",
+            "validation": {
+              "required": true
+            }
+          },
+          {
+            "type": "section",
+            "title": "Se necessario, genitore/tutore",
+            "children": [
+              {
+                "type": "text_input",
+                "label": "Nome e cognome genitore/tutore",
+                "data_key": "tutore_full_name",
+                "validation": {
+                  "required": false
+                }
+              },
+              {
+                "type": "signature",
+                "label": "Firma genitore/tutore",
+                "data_key": "firma_2",
+                "validation": {
+                  "required": false
+                }
+              }
+            ]
+          }
+        ],
         "disable_legacy_injection": true
       }
     }
